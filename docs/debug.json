@@ -1,1 +1,513 @@
-{}
+{
+ "run": "2026-11-22T10:03:22.290577+04:00",
+ "ebid_links": 114,
+ "ebid_items": 114,
+ "mzadcom": {
+  "pages": [
+   {
+    "url": "https://www.mzadcom.om/auctions?sec=main&type=active",
+    "cards": 14
+   },
+   {
+    "url": "https://www.mzadcom.om/auctions?sec=main&type=upcoming",
+    "cards": 5
+   },
+   {
+    "url": "https://www.mzadcom.om/?type=auctions",
+    "cards": 40
+   }
+  ],
+  "cards": 35,
+  "json_items": 104,
+  "items": 35,
+  "sample": [
+   {
+    "href": "https://www.mzadcom.om/",
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:١١:٢٨ ص\nتسجيل الدخول"
+   },
+   {
+    "href": "https://www.mzadcom.om/auc-calendar",
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:١١:٢٨ ص\nتسجيل الدخول"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4727",
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n48\nدقيقة\n34\nثانية\nMZAD-4727\nمركبات\n-1 [2074 HM سوزوكي فيتارا] موديل 2012\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4728",
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n48\nدقيقة\n34\nثانية\nMZAD-4728\nمركبات\nا-2 [9793 YB Toyota RAV4] موديل 2007\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:10 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4729",
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n48\nدقيقة\n34\nثانية\nMZAD-4729\nمركبات\n-3 [7827 YB Toyota RAV 4] موديل 2007\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n300\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n300\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:20 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4730",
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n48\nدقيقة\n34\nثانية\nMZAD-4730\nمركبات\nLot -4 [6032 RK Toyota hilux]2012 model\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n1,000\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n1000\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:30 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4731",
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n48\nدقيقة\n34\nثانية\nMZAD-4731\nمركبات\n-5 [6040 RK تويوتا هايلكس] موديل 2012\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n800\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n800\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:40 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4732",
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n48\nدقيقة\n34\nثانية\nMZAD-4732\nمركبات\n- 6 [8458 YS تويوتا هيلوكس] موديل 2012\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n800\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n800\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:50 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   }
+  ],
+  "json_sample": [
+   {
+    "client_check": "None",
+    "can_show_amts": "None",
+    "id": "4727",
+    "auction_number": "MZAD4727",
+    "category": "8",
+    "categoryDetails": "{'id': 8, 'category_name': 'Vehicles', 'category_name_ar': 'مركبات', 'description': '', 'description_ar': '', 'file_cate",
+    "organization": "40",
+    "organizationDetails": "{'id': 40, 'default_mzadcom_bank_account_id': 1, 'organization_name': 'Oman Post', 'organization_name_ar': 'بريد عمان', ",
+    "has_auto_bidding": "0",
+    "order": "0",
+    "title": "Lot -1 [2074 HM Suzuki vitara]2012 model",
+    "title_ar": "-1 [2074 HM سوزوكي فيتارا] موديل 2012",
+    "description": "Lot -1 [2074 HM Suzuki vitara]2012 model",
+    "description_ar": "-1 [2074 HM سوزوكي فيتارا] موديل 2012",
+    "details": "None",
+    "downloads": "[{'label': None, 'label_ar': None, 'file': None}]",
+    "terms": "None",
+    "terms_arabic": "None",
+    "file_terms": "https://mzadcom.om/services/public/uploads/auctions/terms/terms_4727_1794986876.pdf",
+    "file_payment_terms": "False",
+    "enquiry": "[{'label': 'Operation', 'value': '92970111'}]",
+    "package": "None",
+    "group": "763",
+    "group_info": "{'id': 763, 'organization': 40, 'collection_type': 1, 'has_auto_bidding': 0, 'project_code': 'MZ/OP/P0132-Q4/2026', 'gro",
+    "phone_number": "None"
+   },
+   {
+    "client_check": "None",
+    "can_show_amts": "None",
+    "id": "4728",
+    "auction_number": "MZAD4728",
+    "category": "8",
+    "categoryDetails": "{'id': 8, 'category_name': 'Vehicles', 'category_name_ar': 'مركبات', 'description': '', 'description_ar': '', 'file_cate",
+    "organization": "40",
+    "organizationDetails": "{'id': 40, 'default_mzadcom_bank_account_id': 1, 'organization_name': 'Oman Post', 'organization_name_ar': 'بريد عمان', ",
+    "has_auto_bidding": "0",
+    "order": "0",
+    "title": "Lot -2 [9793 YB Toyota RAV4]2007 model",
+    "title_ar": "ا-2 [9793 YB Toyota RAV4] موديل 2007",
+    "description": "Lot -2 [9793 YB Toyota RAV4]2007 model",
+    "description_ar": "ا-2 [9793 YB Toyota RAV4] موديل 2007",
+    "details": "None",
+    "downloads": "None",
+    "terms": "None",
+    "terms_arabic": "None",
+    "file_terms": "https://mzadcom.om/services/public/uploads/auctions/terms/terms_4728_1794986887.pdf",
+    "file_payment_terms": "False",
+    "enquiry": "[{'label': 'Operation', 'value': '92970111'}]",
+    "package": "None",
+    "group": "763",
+    "group_info": "{'id': 763, 'organization': 40, 'collection_type': 1, 'has_auto_bidding': 0, 'project_code': 'MZ/OP/P0132-Q4/2026', 'gro",
+    "phone_number": "None"
+   },
+   {
+    "client_check": "None",
+    "can_show_amts": "None",
+    "id": "4729",
+    "auction_number": "MZAD4729",
+    "category": "8",
+    "categoryDetails": "{'id': 8, 'category_name': 'Vehicles', 'category_name_ar': 'مركبات', 'description': '', 'description_ar': '', 'file_cate",
+    "organization": "40",
+    "organizationDetails": "{'id': 40, 'default_mzadcom_bank_account_id': 1, 'organization_name': 'Oman Post', 'organization_name_ar': 'بريد عمان', ",
+    "has_auto_bidding": "0",
+    "order": "0",
+    "title": "Lot -3 [7827 YB Toyota RAV 4]2007 model",
+    "title_ar": "-3 [7827 YB Toyota RAV 4] موديل 2007",
+    "description": "Lot -3 [7827 YB Toyota RAV 4]2007 model",
+    "description_ar": "-3 [7827 YB Toyota RAV 4] موديل 2007",
+    "details": "None",
+    "downloads": "None",
+    "terms": "None",
+    "terms_arabic": "None",
+    "file_terms": "https://mzadcom.om/services/public/uploads/auctions/terms/terms_4729_1794986896.pdf",
+    "file_payment_terms": "False",
+    "enquiry": "[{'label': 'Operation', 'value': '92970111'}]",
+    "package": "None",
+    "group": "763",
+    "group_info": "{'id': 763, 'organization': 40, 'collection_type': 1, 'has_auto_bidding': 0, 'project_code': 'MZ/OP/P0132-Q4/2026', 'gro",
+    "phone_number": "None"
+   }
+  ]
+ },
+ "rop": {
+  "pages": [
+   {
+    "url": "https://rop.mzadcom.om/auctions",
+    "cards": 2
+   },
+   {
+    "url": "https://rop.mzadcom.om/",
+    "cards": 24
+   }
+  ],
+  "cards": 9,
+  "json_items": 196,
+  "items": 9,
+  "sample": [
+   {
+    "href": "https://rop.mzadcom.om/",
+    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n1\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n2\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n29\nالمزادات القادمة\n0\nالمزادات السابقة\n2132\nالمزادات\n2161\nمباشر\n0\nنشط\n28محركات قوارب - صور.\nرقم المزاد : MZAD5290\n2,800 ر.ع\n قائمة المزادات\n \nالتسجيل\nيبدأ بعد :\n0يوم\n0ساعة\n47دقيقة\n37ثانية\nمبلغ الضمان: N/A\nمبلغ المع"
+   },
+   {
+    "href": "https://rop.mzadcom.om/auctions",
+    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n1\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n2\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n29\nالمزادات القادمة\n0\nالمزادات السابقة\n2132\nالمزادات\n2161\nمباشر\n0\nنشط\n28محركات قوارب - صور.\nرقم المزاد : MZAD5290\n2,800 ر.ع\n قائمة المزادات\n \nالتسجيل\nيبدأ بعد :\n0يوم\n0ساعة\n47دقيقة\n37ثانية\nمبلغ الضمان: N/A\nمبلغ المع"
+   },
+   {
+    "href": "https://rop.mzadcom.om/comp-registration",
+    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n1\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n2\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n29\nالمزادات القادمة\n0\nالمزادات السابقة\n2132\nالمزادات\n2161\nمباشر\n0\nنشط\n28محركات قوارب - صور.\nرقم المزاد : MZAD5290\n2,800 ر.ع\n قائمة المزادات\n \nالتسجيل\nيبدأ بعد :\n0يوم\n0ساعة\n47دقيقة\n37ثانية\nمبلغ الضمان: N/A\nمبلغ المع"
+   },
+   {
+    "href": "https://rop.mzadcom.om/grouped-auctions/529?type=active",
+    "text": "قائمة المزادات\n \nالتسجيل\nيبدأ بعد :\n0يوم\n0ساعة\n47دقيقة\n37ثانية"
+   },
+   {
+    "href": "https://rop.mzadcom.om/grouped-auctions/530?type=active",
+    "text": "قائمة المزادات\n \nالتسجيل\nينتهي بعد :\n0يوم\n3ساعة\n49دقيقة\n37ثانية"
+   },
+   {
+    "href": "",
+    "text": "28محركات قوارب - صور.\nرقم المزاد : MZAD5290"
+   },
+   {
+    "href": "",
+    "text": "يبدأ بعد :\n0يوم\n0ساعة\n47دقيقة\n37ثانية"
+   },
+   {
+    "href": "",
+    "text": "2000لتر زيوت مستهلكة - نزوى\nرقم المزاد : MZAD5301"
+   }
+  ],
+  "json_sample": [
+   {
+    "id": "2906",
+    "meeting": "None",
+    "auction_number": "MZAD2906",
+    "category": "5",
+    "categoryDetails": "{'id': 5, 'category_name': 'Oil', 'category_name_ar': 'زيت', 'description': 'null', 'description_ar': 'null', 'file_cate",
+    "organization": "1",
+    "organizationDetails": "{'id': 1, 'organization_name': 'ROP', 'organization_name_ar': 'ROP', 'file_organization_image': 'rop.png', 'description'",
+    "has_auto_bidding": "0",
+    "order": "0",
+    "title": "2000 liters used oil - Nizwa",
+    "title_ar": "2000لتر زيوت مستهلكة - نزوى",
+    "description": "None",
+    "description_ar": "None",
+    "details": "None",
+    "downloads": "None",
+    "terms": "None",
+    "terms_arabic": "None",
+    "file_terms": "https://rop.mzadcom.om/services/public/uploads/auctions/terms/terms_2906_1794891517.pdf",
+    "file_payment_terms": "https://rop.mzadcom.om/services/public/uploads/auctions/terms/pay_terms_2906_1794891520.pdf",
+    "enquiry": "None",
+    "package": "None",
+    "group": "530",
+    "group_info": "{'id': 530, 'is_auto_refunded': 0, 'request_id': None, 'organization': 1, 'collection_type': 1, 'has_auto_bidding': 0, '",
+    "phone_number": "",
+    "mask": "None"
+   },
+   {
+    "id": "2905",
+    "meeting": "None",
+    "auction_number": "MZAD2905",
+    "category": "9",
+    "categoryDetails": "{'id': 9, 'category_name': 'Boats and engines', 'category_name_ar': 'قوارب و محركات', 'description': 'Boats and engines'",
+    "organization": "1",
+    "organizationDetails": "{'id': 1, 'organization_name': 'ROP', 'organization_name_ar': 'ROP', 'file_organization_image': 'rop.png', 'description'",
+    "has_auto_bidding": "0",
+    "order": "0",
+    "title": "28-Yamaha 55 HP",
+    "title_ar": "28-ياماها ٥٥ حصان",
+    "description": "None",
+    "description_ar": "None",
+    "details": "None",
+    "downloads": "None",
+    "terms": "None",
+    "terms_arabic": "None",
+    "file_terms": "False",
+    "file_payment_terms": "False",
+    "enquiry": "[]",
+    "package": "None",
+    "group": "529",
+    "group_info": "{'id': 529, 'is_auto_refunded': 0, 'request_id': None, 'organization': 1, 'collection_type': 1, 'has_auto_bidding': 0, '",
+    "phone_number": "",
+    "mask": "None"
+   },
+   {
+    "id": "2904",
+    "meeting": "None",
+    "auction_number": "MZAD2904",
+    "category": "9",
+    "categoryDetails": "{'id': 9, 'category_name': 'Boats and engines', 'category_name_ar': 'قوارب و محركات', 'description': 'Boats and engines'",
+    "organization": "1",
+    "organizationDetails": "{'id': 1, 'organization_name': 'ROP', 'organization_name_ar': 'ROP', 'file_organization_image': 'rop.png', 'description'",
+    "has_auto_bidding": "0",
+    "order": "0",
+    "title": "27-Yamaha 55 HP",
+    "title_ar": "27-ياماها ٥٥ حصان",
+    "description": "None",
+    "description_ar": "None",
+    "details": "None",
+    "downloads": "None",
+    "terms": "None",
+    "terms_arabic": "None",
+    "file_terms": "False",
+    "file_payment_terms": "False",
+    "enquiry": "[]",
+    "package": "None",
+    "group": "529",
+    "group_info": "{'id': 529, 'is_auto_refunded': 0, 'request_id': None, 'organization': 1, 'collection_type': 1, 'has_auto_bidding': 0, '",
+    "phone_number": "",
+    "mask": "None"
+   }
+  ]
+ },
+ "safqa": {
+  "pages": [
+   {
+    "url": "https://safqaauctions.om/",
+    "cards": 38
+   },
+   {
+    "url": "https://safqaauctions.om/auctions",
+    "cards": 48
+   }
+  ],
+  "cards": 0,
+  "json_items": 0,
+  "items": 0,
+  "sample": [],
+  "json_sample": []
+ },
+ "mazadoman": {
+  "pages": [
+   {
+    "url": "https://mazad.om/auctions",
+    "cards": 11
+   },
+   {
+    "url": "https://mazad.om/",
+    "cards": 14
+   },
+   {
+    "url": "https://mazad.smartlaboman.com/auctions",
+    "cards": 11
+   }
+  ],
+  "cards": 18,
+  "json_items": 26,
+  "items": 18,
+  "sample": [
+   {
+    "href": "https://mazad.om/home",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/ownerauctions",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/auctions",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/contac-us",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/users-guidline",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/profile",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/search",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\n تسجيل الدخولEn"
+   },
+   {
+    "href": "https://mazad.om/auctions?cat=Various%20Items&view=1",
+    "text": "سلع متنوعة\nعرض الكل\n23 ساعة 45 دقيقة 32 ثانية\nرقم 1 : رخام - محافظة الداخلية - ولاية الحمراء\n المؤسسة: مزاد افراد\n عدد المزايدات\n0\n السعر\n100 \nمزايدة\n8 يوم 13 ساعة 45 دقيقة 32 ثانية\nالرقم1: خردة حديد عامة + مصدات مطاطية + قوارب\n المؤسسة: وزارة الدفاع\n عدد المزايدات\n0\n السعر\n100 \nمزاد قادم\n8 يوم 13 ساعة 45 دقيقة 32 ثانية\nالرقم 2: دواليب حديد وأسطوانات وأغراض متنوعة\n المؤسسة: وزارة الدفاع\n عدد المزا"
+   }
+  ],
+  "json_sample": [
+   {
+    "code": "MZ-7-7",
+    "current_price": "100.0",
+    "end_date": "Mon, 23 Nov 2026 06:00:00 GMT",
+    "extension_period": "120",
+    "id": "bb711b50-421c-4884-82e6-cf963c00bf05",
+    "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/91014b8b-bd69-42af-a345-3299965422cd', 'thumb': 'http",
+    "item_status": "bid",
+    "min_bid": "20.0",
+    "modified_date": "Sun, 22 Nov 2026 10:06:23 GMT",
+    "owner_title": "{'ar': 'مزاد افراد', 'en': 'Individuals Auction'}",
+    "start_date": "Thu, 19 Nov 2026 20:00:00 GMT",
+    "title": "{'ar': 'رقم 1 : رخام - محافظة الداخلية - ولاية الحمراء ', 'en': 'No. 1: Marble - Ad Dakhiliyah Governorate - Al Hamra Wi",
+    "total_bids": "0"
+   },
+   {
+    "code": "MOD-21-1",
+    "current_price": "100.0",
+    "end_date": "Thu, 03 Dec 2026 06:00:00 GMT",
+    "extension_period": "120",
+    "id": "2f303464-e25c-4dca-af92-e246288f46dc",
+    "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/d5127e8d-79c3-426b-b57d-53c7bf7314c4', 'thumb': 'http",
+    "item_status": "open",
+    "min_bid": "50.0",
+    "modified_date": "Sun, 22 Nov 2026 10:07:28 GMT",
+    "owner_title": "{'ar': 'وزارة الدفاع', 'en': 'Ministry of Defense'}",
+    "start_date": "Mon, 30 Nov 2026 20:00:00 GMT",
+    "title": "{'ar': 'الرقم1: خردة حديد عامة + مصدات مطاطية + قوارب', 'en': 'NO1: General Scrap Iron, Rubber Bumpers and Boats Group'}",
+    "total_bids": "0"
+   },
+   {
+    "code": "MOD-21-2",
+    "current_price": "100.0",
+    "end_date": "Thu, 03 Dec 2026 06:05:00 GMT",
+    "extension_period": "120",
+    "id": "d7e56a20-a5f1-4c1b-a7e9-0dfabf1ca3dc",
+    "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/e3fa83c7-81c5-40f4-88a6-623a0fef8bde', 'thumb': 'http",
+    "item_status": "open",
+    "min_bid": "50.0",
+    "modified_date": "Sun, 22 Nov 2026 09:55:38 GMT",
+    "owner_title": "{'ar': 'وزارة الدفاع', 'en': 'Ministry of Defense'}",
+    "start_date": "Mon, 30 Nov 2026 20:00:00 GMT",
+    "title": "{'ar': 'الرقم 2: دواليب حديد وأسطوانات وأغراض متنوعة', 'en': 'NO2: Iron Wheels, Cylinders and Miscellaneous Items Group'",
+    "total_bids": "0"
+   }
+  ]
+ },
+ "bidproc": {
+  "pages": [
+   {
+    "url": "https://bidproc.com/",
+    "cards": 33
+   },
+   {
+    "url": "https://bidproc.com/events",
+    "cards": 19
+   }
+  ],
+  "cards": 0,
+  "json_items": 4,
+  "items": 1,
+  "sample": [],
+  "json_sample": [
+   {
+    "appId": "247531105758846",
+    "channelId": "83247",
+    "name": "Support",
+    "created": "1563187599038",
+    "updated": "1572851470090",
+    "welcomeMessage": "{'messageId': 0, 'messageType': 1, 'messageUserId': 0, 'conversationId': 0, 'appId': 247531105758846, 'createdMillis': 0",
+    "isDisabled": "False",
+    "position": "1",
+    "type": "BOTH",
+    "groupId": "0",
+    "isDefaultChannel": "True",
+    "tags": "[]",
+    "restricted": "False",
+    "channelAlias": "e51a77cc-623d-4038-aa7d-b433aaab4d33",
+    "source": "FRESHCHAT",
+    "csatSurveySettings": "{}",
+    "sendCsat": "False",
+    "channelContents": "[{'channelContentId': 0, 'channelId': 0, 'localeId': 0, 'deleted': False, 'hidden': False, 'appId': 0, 'groupId': 0, 'is",
+    "operatingHoursId": "64027",
+    "serviceAccountId": "0",
+    "channelMeta": "{'canMigrateToPMP': False}",
+    "threadingInterval": "-1",
+    "isRevampEnabledChannel": "False"
+   },
+   {
+    "appId": "247531105758846",
+    "channelId": "173335",
+    "name": "",
+    "created": "1573479840467",
+    "updated": "1573479840467",
+    "welcomeMessage": "{'messageId': 0, 'messageType': 1, 'messageUserId': 0, 'conversationId': 0, 'appId': 0, 'createdMillis': 0, 'updatedMill",
+    "isDisabled": "False",
+    "position": "2",
+    "type": "BOTH",
+    "groupId": "0",
+    "isDefaultChannel": "False",
+    "tags": "['bot preview', 'fc_bot_preview']",
+    "restricted": "True",
+    "channelAlias": "5107f04c-0489-11ea-af66-0e841373f98e",
+    "source": "BOT_PREVIEW",
+    "csatSurveySettings": "{}",
+    "sendCsat": "False",
+    "channelContents": "[{'channelContentId': 0, 'channelId': 0, 'localeId': 0, 'deleted': False, 'hidden': False, 'appId': 0, 'groupId': 0, 'is",
+    "operatingHoursId": "64027",
+    "serviceAccountId": "0",
+    "channelMeta": "{'canMigrateToPMP': False}",
+    "threadingInterval": "-1",
+    "isRevampEnabledChannel": "False"
+   },
+   {
+    "appId": "247531105758846",
+    "channelId": "83247",
+    "name": "Support",
+    "created": "1563187599038",
+    "updated": "1572851470090",
+    "welcomeMessage": "{'messageId': 0, 'messageType': 1, 'messageUserId': 0, 'conversationId': 0, 'appId': 247531105758846, 'createdMillis': 0",
+    "isDisabled": "False",
+    "position": "1",
+    "type": "BOTH",
+    "groupId": "0",
+    "isDefaultChannel": "True",
+    "tags": "[]",
+    "restricted": "False",
+    "channelAlias": "e51a77cc-623d-4038-aa7d-b433aaab4d33",
+    "source": "FRESHCHAT",
+    "csatSurveySettings": "{}",
+    "sendCsat": "False",
+    "channelContents": "[{'channelContentId': 0, 'channelId': 0, 'localeId': 0, 'deleted': False, 'hidden': False, 'appId': 0, 'groupId': 0, 'is",
+    "operatingHoursId": "64027",
+    "serviceAccountId": "0",
+    "channelMeta": "{'canMigrateToPMP': False}",
+    "threadingInterval": "-1",
+    "isRevampEnabledChannel": "False"
+   }
+  ]
+ },
+ "mctbids": {
+  "pages": [
+   {
+    "url": "https://www.mctbids.com/",
+    "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.mctbids.com/\", waiting until \"domcontentloaded\"\n"
+   },
+   {
+    "url": "https://www.mctbids.com/auctions",
+    "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.mctbids.com/auctions\", waiting until \"domcontentloaded\"\n"
+   }
+  ],
+  "cards": 0,
+  "json_items": 0,
+  "items": 0,
+  "sample": [],
+  "json_sample": []
+ },
+ "muscatauction": {
+  "pages": [
+   {
+    "url": "https://www.muscatauction.com/",
+    "cards": 1
+   }
+  ],
+  "cards": 0,
+  "json_items": 0,
+  "items": 0,
+  "sample": [],
+  "json_sample": []
+ }
+}
