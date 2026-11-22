@@ -414,6 +414,92 @@ def item_from_json(site, d, href_for):
     }
 
 
+def item_from_text(site, url, text, page):
+    lines = [clean(x) for x in text.split("\n") if clean(x)]
+    if not lines:
+        return None
+    blob = " | ".join(lines)
+    # العنوان: أطول سطر "وصفي" (مو تاريخ/عداد/سعر/زر)
+    junk = re.compile(r"تاريخ|يبدأ|ينتهي|متبقي|مبلغ|الضمان|رقم المزاد|المزايدة|مزايدة|السعر|التسجيل|سجل|ادفع|قائمة|"
+                      r"تفاصيل|نشط|القادمة|السابقة|مباشر|عرض|ثانية|دقيقة|ساعة|"
+                      r"starting|price|fee|bids?\b|auction item|details|register|view|active|upcoming|days?,|hours?|minutes?|"
+                      r"^MZAD|^lot\s*#?\s*\d+$|^\W*$", re.I)
+    cands = [l for l in lines[:12] if 5 <= len(l) <= 140 and not junk.search(l)
+             and not re.fullmatch(r"[\d\s:,.\-/]+(ر\.ع|OMR|RO)?", l)]
+    title = max(cands, key=len) if cands else lines[0][:120]
+    lotm = re.search(r"(?:Lot|لوت)\s*#?\s*(\d+)", blob, re.I)
+    if lotm and len(title) < 25 and "lot" not in title.lower():
+        title = f"{title} – Lot {lotm.group(1)}"
+    dates = find_dates(blob)
+    start = end = None
+    for dt, lbl in dates:
+        if re.search(r"انتهاء|الإنتهاء|ينتهي|end|close", lbl, re.I):
+            end = end or dt
+        elif re.search(r"بدء|البدء|يبدأ|start|begin", lbl, re.I):
+            start = start or dt
+    if not start and not end and dates:
+        start = dates[0][0]
+        if len(dates) > 1 and dates[1][0] > start:
+            end = dates[1][0]
+    td, kind = countdown(blob)
+    if td:
+        t = (NOW + td).replace(second=0, microsecond=0)
+        if kind == "start":
+            start = start or t
+        else:
+            end = end or t
+    gov, place = guess_gov(blob)
+    mz = re.search(r"MZAD-?\d+", blob)
+    lot = re.search(r"(?:Lot|لوت|رقم المزاد)\s*#?\s*:?\s*([A-Z\-]*\d+)", blob, re.I)
+    org = re.search(r"المؤسسة\s*:?\s*\|?\s*([^|]{2,40})", blob)
+    note = " • ".join(x for x in [mz.group(0) if mz else (("Lot " + lot.group(1)) if lot else None),
+                                  clean(org.group(1)) if org else None] if x)
+    cat = guess_cat(blob)
+    sub = {"num": "أرقام مميزة", "car": "مركبات", "land": "عقار", "proj": "معدات ومنقولات"}[cat]
+    m = re.search(r"(مزاد (?:مركبات|عقارات|أرقام|معدات|خردة|منقولات)[^|]{0,20})", blob)
+    if m:
+        sub = clean(m.group(1))[:30]
+    return {
+        "id": f"{site['key']}-" + (re.sub(r"\W+", "", urlparse(url).path + urlparse(url).query)[-40:] if url else
+                                  re.sub(r"\W+", "", title)[:40]),
+        "src": site["name"], "cat": cat, "sub": sub, "title": title,
+        "gov": gov, "place": place, "price": find_price(blob), "area": None,
+        "start": start.isoformat() if start else None, "end": end.isoformat() if end else None,
+        "url": url or page, "note": note,
+    }
+
+
+
+
+MZ_APIS = {
+    "mzadcom": ["https://mzadcom.om/services/public/api/all_auctions?limit=100&page={p}&section=main&type={t}&lang=ar&sort=newest&grouped=0",
+                "https://mzadcom.om/services/public/api/all_auctions?limit=100&page={p}&section=main&type={t}&lang=ar&sort=newest&grouped=1"],
+    "rop": ["https://rop.mzadcom.om/services/public/api/all_auctions?type={t}&limit=100&page={p}&lang=ar"],
+}
+
+
+def mzad_api_items(site, slog):
+    """مزادكم والشرطة: نقرأ الـ API مباشرة (أسرع وأدق من المتصفح)."""
+    out = []
+    for tmpl in MZ_APIS.get(site["key"], []):
+        for t in ("active", "upcoming"):
+            for p in range(1, 11):
+                url = tmpl.format(p=p, t=t)
+                try:
+                    r = requests.get(url, headers={**HDR, "Accept": "application/json"}, timeout=30)
+                    data = r.json()
+                except Exception as e:
+                    slog.setdefault("api_errors", []).append(f"{url[:90]} {str(e)[:60]}")
+                    break
+                found = []
+                walk_json(data, found)
+                slog.setdefault("direct_api", []).append({"url": url[:120], "items": len(found)})
+                out += found
+                if len(found) < 100:
+                    break
+    return out
+
+
 NAV_WORDS = ["الصفحة الرئيسية", "تسجيل الدخول", "التواصل معنا", "تواصل معنا", "من نحن", "الأسئلة الشائعة", "عن مزاد",
              "Home", "Login", "Contact", "About"]
 
@@ -480,6 +566,7 @@ def scrape_js_sites(log):
                 except Exception as e:
                     slog["pages"].append({"url": url, "error": str(e)[:200]})
             page.close()
+            json_items += mzad_api_items(site, slog)
             slog["anchors_sample"] = sorted(anchors)[:60]
             got = {}
             # 1) البيانات المنظمة (API) — الأدق
@@ -517,6 +604,9 @@ def scrape_js_sites(log):
 
 
 # ---------------------------------------------------------------- التشغيل
+JUNK_TITLE = re.compile(r"^(الصفحة الرئيسية|قائمة المزادات|يبدأ بعد|ينتهي بعد|القادمة|المؤسسة|مجموعة مزاد|نشط)|^[\s\d٠-٩:\-/,.صم]+$")
+
+
 def main():
     log = {"run": NOW.isoformat()}
     old = {}
@@ -547,6 +637,8 @@ def main():
         if it["id"] in seen:
             continue
         seen.add(it["id"])
+        if JUNK_TITLE.search(it["title"] or ""):
+            continue
         last = it.get("end") or it.get("start")
         if last and datetime.fromisoformat(last) < cutoff:
             continue                                    # انتهى
@@ -556,7 +648,7 @@ def main():
     # لو فشلت منصة بالكامل هالمرة، نخلي إعلاناتها القديمة اللي ما انتهت
     srcs_now = {it["src"] for it in final}
     for it in old.values():
-        if it["src"] not in srcs_now and it["id"] not in seen:
+        if it["src"] not in srcs_now and it["id"] not in seen and not JUNK_TITLE.search(it.get("title") or ""):
             last = it.get("end") or it.get("start")
             if last and datetime.fromisoformat(last) >= cutoff:
                 it["stale"] = True
