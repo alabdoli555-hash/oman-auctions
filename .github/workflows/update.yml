@@ -1,0 +1,41 @@
+name: تحديث مزادات عمان
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # كل ساعة
+  workflow_dispatch: {}        # زر تشغيل يدوي
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oman-auctions
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: تثبيت الأدوات
+        run: |
+          pip install requests beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+
+      - name: جمع المزادات من كل المنصات
+        run: python scrape.py
+
+      - name: نشر التحديث
+        run: |
+          git config user.name "oman-auctions-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data.json docs/debug.json
+          git diff --cached --quiet || git commit -m "تحديث المزادات"
+          git pull --rebase -q || true
+          git push
