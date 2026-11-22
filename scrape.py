@@ -26,13 +26,17 @@ JS_SITES = [
     {"key": "mzadcom", "name": "مزادكم", "desc": "مركبات حكومية وشركات، معدات، خردة، أرقام مميزة",
      "pages": ["https://www.mzadcom.om/auctions?sec=main&type=active",
                "https://www.mzadcom.om/auctions?sec=main&type=upcoming",
-               "https://www.mzadcom.om/?type=auctions"]},
+               "https://www.mzadcom.om/?type=auctions"],
+     "detail": "https://www.mzadcom.om/auction-details/{id}"},
     {"key": "rop", "name": "مزادات شرطة عُمان", "desc": "مركبات محجوزة ومنقولات الشرطة",
-     "pages": ["https://rop.mzadcom.om/auctions", "https://rop.mzadcom.om/"]},
+     "pages": ["https://rop.mzadcom.om/auctions", "https://rop.mzadcom.om/"],
+     "detail": "https://rop.mzadcom.om/auction-details/{id}"},
     {"key": "safqa", "name": "صفقة للمزادات", "desc": "عقارات ومركبات ومنقولات حكومية",
      "pages": ["https://safqaauctions.om/", "https://safqaauctions.om/auctions"]},
     {"key": "mazadoman", "name": "مزاد عُمان", "desc": "منقولات ومركبات جهات حكومية",
-     "pages": ["https://mazad.om/auctions", "https://mazad.om/", "https://mazad.smartlaboman.com/auctions"]},
+     "pages": ["https://mazad.om/auctions", "https://mazad.om/"],
+     "extra": ["https://mazad.om/auctions?cat=Real%20Estate&view=1", "https://mazad.om/auctions?cat=Cars&view=1",
+               "https://mazad.om/auctions?cat=Various%20Items&view=1", "https://mazad.om/auctions?cat=Animals&view=1"]},
     {"key": "bidproc", "name": "bidproc", "desc": "معدات وخردة ومركبات شركات",
      "pages": ["https://bidproc.com/", "https://bidproc.com/events"]},
     {"key": "mctbids", "name": "MCTBids", "desc": "سيارات مستعملة ومتضررة",
@@ -311,81 +315,125 @@ CARD_JS = r"""() => {
 
 
 def walk_json(obj, out, depth=0):
-    if depth > 8:
+    """يلقط أي قائمة عناصر شكلها إعلانات مزاد (عنوان + تاريخ أو سعر)."""
+    if depth > 10:
         return
     if isinstance(obj, list):
-        ds = [x for x in obj if isinstance(x, dict)]
-        if ds and sum(1 for d in ds if any(k in d for k in ("title", "name", "title_ar", "name_ar", "auction_name", "lot_name"))) >= max(1, len(ds) // 2):
-            out.extend(ds)
         for x in obj:
+            if isinstance(x, dict) and looks_like_auction(x):
+                out.append(x)
             walk_json(x, out, depth + 1)
     elif isinstance(obj, dict):
         for v in obj.values():
             walk_json(v, out, depth + 1)
 
 
-def pick(d, *keys):
+DATE_KEYS_S = ("start_date", "start_time", "starts_at", "start_at", "auction_start", "start_datetime", "startDate", "start")
+DATE_KEYS_E = ("end_date", "end_time", "ends_at", "end_at", "auction_end", "end_datetime", "endDate", "end", "closing_date")
+PRICE_KEYS = ("current_price", "current_amount", "current_bid", "highest_bid", "last_bid", "max_bid", "currentPrice",
+              "start_amount", "starting_amount", "starting_price", "start_price", "opening_price", "min_price", "price", "amount")
+
+
+def ar(v):
+    if isinstance(v, dict):
+        return v.get("ar") or v.get("en") or next((x for x in v.values() if isinstance(x, str)), None)
+    return v
+
+
+def looks_like_auction(d):
+    has_title = any(d.get(k) for k in ("title", "title_ar", "name", "name_ar", "auction_name", "lot_name"))
+    has_when = any(d.get(k) for k in DATE_KEYS_S + DATE_KEYS_E)
+    has_id = "id" in d or "code" in d or "auction_number" in d
+    return has_title and has_when and has_id
+
+
+def parse_any_date(v):
+    if v in (None, "", "None"):
+        return None
+    if isinstance(v, (int, float)) and v > 1e9:
+        return datetime.fromtimestamp(v / 1000 if v > 1e11 else v, MUSCAT)
+    s = str(v).strip()
+    try:                                       # ISO
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        return dt if dt.tzinfo else dt.replace(tzinfo=MUSCAT)
+    except ValueError:
+        pass
+    try:                                       # Mon, 23 Nov 2026 06:00:00 GMT
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(s)
+        if dt:
+            return (dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)).astimezone(MUSCAT)
+    except Exception:
+        pass
+    ds = find_dates(s)
+    return ds[0][0] if ds else None
+
+
+def first(d, keys):
     for k in keys:
-        for kk in (k + "_ar", k, k + "_en"):
-            v = d.get(kk)
-            if v not in (None, "", [], {}):
-                return v
+        v = d.get(k)
+        if v not in (None, "", "None", [], {}):
+            return v
     return None
 
 
-def item_from_text(site, url, text, page):
-    lines = [clean(x) for x in text.split("\n") if clean(x)]
-    if not lines:
+def item_from_json(site, d, href_for):
+    title = ar(first(d, ("title_ar", "title", "name_ar", "name", "auction_name", "lot_name")))
+    if not isinstance(title, str) or not title.strip():
         return None
-    blob = " | ".join(lines)
-    # العنوان: أطول سطر "وصفي" (مو تاريخ/عداد/سعر/زر)
-    junk = re.compile(r"تاريخ|يبدأ|ينتهي|متبقي|مبلغ|الضمان|رقم المزاد|المزايدة|مزايدة|السعر|التسجيل|سجل|ادفع|قائمة|"
-                      r"تفاصيل|نشط|القادمة|السابقة|مباشر|عرض|ثانية|دقيقة|ساعة|"
-                      r"starting|price|fee|bids?\b|auction item|details|register|view|active|upcoming|days?,|hours?|minutes?|"
-                      r"^MZAD|^lot\s*#?\s*\d+$|^\W*$", re.I)
-    cands = [l for l in lines[:12] if 5 <= len(l) <= 140 and not junk.search(l)
-             and not re.fullmatch(r"[\d\s:,.\-/]+(ر\.ع|OMR|RO)?", l)]
-    title = max(cands, key=len) if cands else lines[0][:120]
-    lotm = re.search(r"(?:Lot|لوت)\s*#?\s*(\d+)", blob, re.I)
-    if lotm and len(title) < 25 and "lot" not in title.lower():
-        title = f"{title} – Lot {lotm.group(1)}"
-    dates = find_dates(blob)
-    start = end = None
-    for dt, lbl in dates:
-        if re.search(r"انتهاء|الإنتهاء|ينتهي|end|close", lbl, re.I):
-            end = end or dt
-        elif re.search(r"بدء|البدء|يبدأ|start|begin", lbl, re.I):
-            start = start or dt
-    if not start and not end and dates:
-        start = dates[0][0]
-        if len(dates) > 1 and dates[1][0] > start:
-            end = dates[1][0]
-    td, kind = countdown(blob)
-    if td:
-        t = (NOW + td).replace(second=0, microsecond=0)
-        if kind == "start":
-            start = start or t
-        else:
-            end = end or t
-    gov, place = guess_gov(blob)
-    mz = re.search(r"MZAD-?\d+", blob)
-    lot = re.search(r"(?:Lot|لوت|رقم المزاد)\s*#?\s*:?\s*([A-Z\-]*\d+)", blob, re.I)
-    org = re.search(r"المؤسسة\s*:?\s*\|?\s*([^|]{2,40})", blob)
-    note = " • ".join(x for x in [mz.group(0) if mz else (("Lot " + lot.group(1)) if lot else None),
-                                  clean(org.group(1)) if org else None] if x)
-    cat = guess_cat(blob)
-    sub = {"num": "أرقام مميزة", "car": "مركبات", "land": "عقار", "proj": "معدات ومنقولات"}[cat]
-    m = re.search(r"(مزاد (?:مركبات|عقارات|أرقام|معدات|خردة|منقولات)[^|]{0,20})", blob)
-    if m:
-        sub = clean(m.group(1))[:30]
+    title = clean(title)
+    start = parse_any_date(first(d, DATE_KEYS_S))
+    end = parse_any_date(first(d, DATE_KEYS_E))
+    price = None
+    for k in PRICE_KEYS:
+        if d.get(k) not in (None, "", "None"):
+            price = num(d[k])
+            if price:
+                break
+    catd = d.get("categoryDetails") or d.get("category_details") or d.get("category") or {}
+    cat_txt = ar(catd.get("category_name_ar") or catd.get("category_name") or catd.get("name")) if isinstance(catd, dict) else str(catd or "")
+    orgd = d.get("organizationDetails") or d.get("organization_details") or {}
+    org = (ar(orgd.get("organization_name_ar") or orgd.get("organization_name")) if isinstance(orgd, dict) else None) or ar(d.get("owner_title"))
+    loc = ar(first(d, ("location_ar", "location", "city", "wilayat", "wilayat_ar", "address", "region", "governorate")))
+    if isinstance(loc, dict):
+        loc = ar(loc.get("name_ar") or loc.get("name"))
+    blob = " ".join(str(x) for x in [title, cat_txt, loc, d.get("description_ar") or "", d.get("description") or ""] if x)
+    cat = guess_cat(f"{cat_txt} {title}")
+    gov, place = guess_gov(f"{loc or ''} {title}")
+    if loc and not place:
+        place = str(loc)
+    iid = str(d.get("id") or d.get("code") or d.get("auction_number"))
+    sub = (cat_txt or {"num": "أرقام مميزة", "car": "مركبات", "land": "عقار", "proj": "معدات ومنقولات"}[cat])[:30]
+    code = d.get("auction_number") or d.get("code")
+    note = " • ".join(x for x in [str(code) if code else None, org] if x)
     return {
-        "id": f"{site['key']}-" + (re.sub(r"\W+", "", urlparse(url).path + urlparse(url).query)[-40:] if url else
-                                  re.sub(r"\W+", "", title)[:40]),
-        "src": site["name"], "cat": cat, "sub": sub, "title": title,
-        "gov": gov, "place": place, "price": find_price(blob), "area": None,
+        "id": f"{site['key']}-{iid}", "src": site["name"], "cat": cat, "sub": sub, "title": title[:160],
+        "gov": gov, "place": place, "price": price, "area": None,
         "start": start.isoformat() if start else None, "end": end.isoformat() if end else None,
-        "url": url or page, "note": note,
+        "url": href_for(d), "note": note,
     }
+
+
+NAV_WORDS = ["الصفحة الرئيسية", "تسجيل الدخول", "التواصل معنا", "تواصل معنا", "من نحن", "الأسئلة الشائعة", "عن مزاد",
+             "Home", "Login", "Contact", "About"]
+
+
+def url_maker(site, anchors):
+    tmpl = site.get("detail")
+
+    def href_for(d):
+        for key in ("id", "code", "auction_number"):
+            v = d.get(key)
+            if v in (None, ""):
+                continue
+            v = str(v)
+            for h in anchors:
+                if re.search(r"(?<![\w-])" + re.escape(v) + r"(?![\w-])", h):
+                    return h
+        if tmpl and d.get("id") not in (None, ""):
+            return tmpl.format(id=d["id"])
+        return site["pages"][0]
+    return href_for
 
 
 def scrape_js_sites(log):
@@ -395,23 +443,26 @@ def scrape_js_sites(log):
         browser = p.chromium.launch()
         ctx = browser.new_context(locale="ar-OM", user_agent=UA, viewport={"width": 1366, "height": 900})
         for site in JS_SITES:
-            slog = {"pages": [], "cards": 0, "json_items": 0, "items": 0, "sample": []}
+            slog = {"pages": [], "apis": [], "raw_cards": [], "json_full": [], "items": 0}
             log[site["key"]] = slog
             json_items = []
             page = ctx.new_page()
 
-            def on_resp(r, bucket=json_items):
+            def on_resp(r, bucket=json_items, slog=slog):
                 try:
                     if "json" in (r.headers.get("content-type") or "") and r.status == 200:
+                        before = len(bucket)
                         walk_json(r.json(), bucket)
+                        if len(slog["apis"]) < 40:
+                            slog["apis"].append({"url": r.url[:200], "items": len(bucket) - before})
                 except Exception:
                     pass
 
             page.on("response", on_resp)
-            got = {}
-            for url in site["pages"]:
+            cards, anchors = [], set()
+            for url in site["pages"] + site.get("extra", []):
                 try:
-                    page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                    page.goto(url, wait_until="domcontentloaded", timeout=60000)
                     try:
                         page.wait_for_load_state("networkidle", timeout=20000)
                     except Exception:
@@ -419,47 +470,46 @@ def scrape_js_sites(log):
                     for _ in range(8):
                         page.mouse.wheel(0, 3000)
                         page.wait_for_timeout(1200)
-                    cards = page.evaluate(CARD_JS)
-                    slog["pages"].append({"url": url, "cards": len(cards)})
-                    for c in cards:
-                        it = item_from_text(site, c["href"], c["text"], url)
-                        if not it:
-                            continue
-                        # لازم يكون فيه علامة إنه مزاد: تاريخ أو سعر أو رقم مزاد
-                        if not (it["start"] or it["end"] or it["price"] or it["note"]):
-                            continue
-                        k = it["url"] + "|" + it["title"]
-                        if k not in got:
-                            got[k] = it
-                            if len(slog["sample"]) < 8:
-                                slog["sample"].append({"href": c["href"], "text": c["text"][:400]})
+                    cs = page.evaluate(CARD_JS)
+                    anchors.update(page.evaluate("() => [...document.querySelectorAll('a[href]')].map(a => a.href)"))
+                    slog["pages"].append({"url": url, "cards": len(cs)})
+                    cards += cs
+                    for c in cs[:6]:
+                        if len(slog["raw_cards"]) < 15:
+                            slog["raw_cards"].append({"href": c["href"], "text": c["text"][:350]})
                 except Exception as e:
                     slog["pages"].append({"url": url, "error": str(e)[:200]})
             page.close()
-            slog["cards"] = len(got)
-            slog["json_items"] = len(json_items)
-            slog["json_sample"] = [{k: (str(v)[:120]) for k, v in list(d.items())[:25]} for d in json_items[:3]]
-            # لو ما لقينا كروت، نستخدم بيانات الـ API
+            slog["anchors_sample"] = sorted(anchors)[:60]
+            got = {}
+            # 1) البيانات المنظمة (API) — الأدق
+            href_for = url_maker(site, anchors)
+            for d in json_items:
+                if len(slog["json_full"]) < 2:
+                    slog["json_full"].append({k: str(v)[:300] for k, v in d.items()})
+                it = item_from_json(site, d, href_for)
+                if it and it["id"] not in got:
+                    got[it["id"]] = it
+            card_by_href = {c["href"]: c["text"] for c in cards if c["href"]}
+            for it in got.values():
+                txt = card_by_href.get(it["url"])
+                if txt:
+                    if not it["gov"]:
+                        it["gov"], it["place"] = guess_gov(txt)
+                    if it["price"] is None:
+                        it["price"] = find_price(txt)
+            slog["json_items"] = len(got)
+            # 2) الكروت من الصفحة — بس إذا ما فيه API
             if not got:
-                for d in json_items:
-                    t = pick(d, "title", "name", "auction_name", "lot_name")
-                    if not isinstance(t, str):
+                for c in cards:
+                    if sum(w in c["text"] for w in NAV_WORDS) >= 2:
                         continue
-                    text = "\n".join([t] + [f"{k}: {v}" for k, v in d.items() if isinstance(v, (str, int, float))])
-                    it = item_from_text(site, "", text, site["pages"][0])
-                    if it:
-                        for kk in ("start_date", "starts_at", "start_at", "start_time", "auction_start"):
-                            if d.get(kk):
-                                ds = find_dates(str(d[kk]))
-                                if ds:
-                                    it["start"] = ds[0][0].isoformat()
-                        for kk in ("end_date", "ends_at", "end_at", "end_time", "auction_end"):
-                            if d.get(kk):
-                                ds = find_dates(str(d[kk]))
-                                if ds:
-                                    it["end"] = ds[0][0].isoformat()
-                        it["id"] = f"{site['key']}-{d.get('id', it['id'])}"
-                        got[it["id"]] = it
+                    it = item_from_text(site, c["href"], c["text"], site["pages"][0])
+                    if not it or not (it["start"] or it["end"]) or not (it["price"] or it["note"]):
+                        continue
+                    k = it["url"] + "|" + it["title"]
+                    if k not in got:
+                        got[k] = it
             slog["items"] = len(got)
             items.extend(got.values())
         browser.close()
