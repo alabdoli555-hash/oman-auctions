@@ -36,7 +36,8 @@ JS_SITES = [
     {"key": "mazadoman", "name": "مزاد عُمان", "desc": "منقولات ومركبات جهات حكومية",
      "pages": ["https://mazad.om/auctions", "https://mazad.om/"],
      "extra": ["https://mazad.om/auctions?cat=Real%20Estate&view=1", "https://mazad.om/auctions?cat=Cars&view=1",
-               "https://mazad.om/auctions?cat=Various%20Items&view=1", "https://mazad.om/auctions?cat=Animals&view=1"]},
+               "https://mazad.om/auctions?cat=Various%20Items&view=1", "https://mazad.om/auctions?cat=Animals&view=1"],
+     "detail": "https://mazad.om/item?id={id}"},
     {"key": "bidproc", "name": "bidproc", "desc": "معدات وخردة ومركبات شركات",
      "pages": ["https://bidproc.com/", "https://bidproc.com/events"]},
     {"key": "mctbids", "name": "MCTBids", "desc": "سيارات مستعملة ومتضررة",
@@ -72,7 +73,9 @@ GOVS = {
 CAT_WORDS = [
     ("num", r"أرقام|ارقام|رقم مميز|أرقام مميزة|لوحة|لوحات|ماسي|ذهبي|diamond|gold number|plate|vip number|special number|mobile number"),
     ("car", r"سيار|مركب|شاحن|باص|حافل|دراج|بيك ?أب|بيكب|تويوتا|نيسان|لكزس|هوندا|هيونداي|كيا|ميتسوبيشي|فورد|شفروليه|"
-            r"جيب|مرسيدس|بي ام|لاندكروزر|هايلكس|كامري|كورولا|باترول|رافعة شوكية|"
+            r"جيب|مرسيدس|بي ام|بي إم|لاندكروزر|لاند كروزر|هايلكس|هيلوكس|كامري|كورولا|باترول|برادو|باجيرو|سوزوكي|فيتارا|سياز|"
+            r"جي إم سي|جمس|يوكن|رينو|رينولت|مازda|مازدا|إيسوزو|ايسوزو|دايهاتسو|فولكس|أودي|اودي|لكزس|إنفينيتي|جيلي|شيري|ام جي|"
+            r"صالون|دفع رباعي|4WD|ونيت|رافعة شوكية|"
             r"vehicle|car\b|cars\b|truck|bus\b|pickup|pick-up|toyota|nissan|lexus|honda|hyundai|kia|ford|"
             r"mitsubishi|chevrolet|mercedes|bmw|land cruiser|hilux|corolla|camry|patrol|prado|suv|sedan|motorcycle"),
     ("land", r"أرض|ارض|أراضي|عقار|سكني|تجاري|زراعي|صناعي|سياحي|شقة|فيلا|منزل|بناية|مبنى|قطعة|"
@@ -107,6 +110,11 @@ def guess_cat(text):
 
 def guess_gov(text):
     t = (text or "").lower()
+    m = re.search(r"محافظة\s+(" + "|".join(GOVS) + r")", t)
+    if m:
+        g = m.group(1)
+        w = re.search(r"ولاية\s+([^\s،,\-–]+(?:\s[^\s،,\-–]+)?)", t)
+        return g, (w.group(1).strip() if w else g)
     for gov, words in GOVS.items():
         for w in words:
             if w.lower() in t:
