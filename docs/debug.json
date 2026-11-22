@@ -1,5 +1,5 @@
 {
- "run": "2026-11-22T10:19:46.034465+04:00",
+ "run": "2026-11-22T10:29:33.352860+04:00",
  "ebid_links": 113,
  "ebid_items": 113,
  "mzadcom": {
@@ -71,11 +71,11 @@
     "items": 0
    },
    {
-    "url": "https://mzadcom.om/services/public/api/auctions_chart_data/main",
+    "url": "https://mzadcom.om/services/public/api/about_counts",
     "items": 0
    },
    {
-    "url": "https://mzadcom.om/services/public/api/about_counts",
+    "url": "https://mzadcom.om/services/public/api/auctions_chart_data/main",
     "items": 0
    },
    {
@@ -102,35 +102,35 @@
   "raw_cards": [
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٢٥:٥٥ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٣٥:٠٠ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٢٥:٥٥ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٣٥:٠٠ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4727",
-    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n34\nدقيقة\n07\nثانية\nMZAD-4727\nمركبات\n-1 [2074 HM سوزوكي فيتارا] موديل 2012\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n25\nدقيقة\n02\nثانية\nMZAD-4727\nمركبات\n-1 [2074 HM سوزوكي فيتارا] موديل 2012\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4728",
-    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n34\nدقيقة\n07\nثانية\nMZAD-4728\nمركبات\nا-2 [9793 YB Toyota RAV4] موديل 2007\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:10 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n25\nدقيقة\n02\nثانية\nMZAD-4728\nمركبات\nا-2 [9793 YB Toyota RAV4] موديل 2007\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:10 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4729",
-    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n34\nدقيقة\n07\nثانية\nMZAD-4729\nمركبات\n-3 [7827 YB Toyota RAV 4] موديل 2007\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n300\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n300\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:20 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n25\nدقيقة\n02\nثانية\nMZAD-4729\nمركبات\n-3 [7827 YB Toyota RAV 4] موديل 2007\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n300\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n300\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:20 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4730",
-    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n34\nدقيقة\n07\nثانية\nMZAD-4730\nمركبات\nLot -4 [6032 RK Toyota hilux]2012 model\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n1,000\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n1000\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:30 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nSeeb\nيبدأ بعد\n08\nيوم\n00\nساعة\n25\nدقيقة\n02\nثانية\nMZAD-4730\nمركبات\nLot -4 [6032 RK Toyota hilux]2012 model\nمجموع المزادات\n1  \nمبلغ الضمان\n1000.00\nمبلغ البدء\n1,000\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n1000\nتاريخ البدء\n30/11/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n01/12/2026\nالثلاثاء\n11:30 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٢٦:٠٦ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٣٥:١٢ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٢٦:٠٦ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٣٥:١٢ ص\nتسجيل الدخول"
    },
    {
     "href": "http://dgitcom.com/",
@@ -146,11 +146,11 @@
    },
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٢٦:١٨ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٣٥:٢٥ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٢٦:١٨ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٢-١١-٢٠٢٦ ١٠:٣٥:٢٥ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auctions?cat=real_estate",
@@ -278,7 +278,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-17 10:12:01",
     "updated_at": "2026-11-17 10:12:01",
-    "server_time": "2026-11-22 10:25:43",
+    "server_time": "2026-11-22 10:34:48",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -407,7 +407,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-17 10:17:32",
     "updated_at": "2026-11-17 10:17:32",
-    "server_time": "2026-11-22 10:25:43",
+    "server_time": "2026-11-22 10:34:48",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -421,7 +421,25 @@
     "payment_accounts": "{'default_mzadcom': {'id': 1, 'bank_name': 'Bank Muscat', 'account_name': 'Mazadcom Smart Auction Solutions LLC', 'account_number': '0440061839220015', 'swift_code': 'BMUSOMRX', 'iban': 'OM360270440061839220015', 'currency': 'OMR', 'branch_name': 'Ghala', 'is_default': True}, 'auction_enrollment': {"
    }
   ],
-  "items": 16,
+  "items": 17,
+  "direct_api": [
+   {
+    "url": "https://mzadcom.om/services/public/api/all_auctions?limit=100&page=1&section=main&type=active&lang=ar&sort=newest&groupe",
+    "items": 12
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/all_auctions?limit=100&page=1&section=main&type=upcoming&lang=ar&sort=newest&grou",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/all_auctions?limit=100&page=1&section=main&type=active&lang=ar&sort=newest&groupe",
+    "items": 12
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/all_auctions?limit=100&page=1&section=main&type=upcoming&lang=ar&sort=newest&grou",
+    "items": 0
+   }
+  ],
   "anchors_sample": [
    "http://dgitcom.com/",
    "https://apps.apple.com/qa/app/mzadcom/id6754008508",
@@ -480,7 +498,7 @@
    "tel:+96892970111",
    "tel:+96894370339"
   ],
-  "json_items": 16
+  "json_items": 17
  },
  "rop": {
   "pages": [
@@ -507,19 +525,19 @@
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/banners",
-    "items": 0
-   },
-   {
     "url": "https://rop.mzadcom.om/services/public/api/active_organizations?",
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/active_categories?active=1",
+    "url": "https://rop.mzadcom.om/services/public/api/banners",
     "items": 0
    },
    {
     "url": "https://rop.mzadcom.om/services/public/api/active_categories?limit=5",
+    "items": 0
+   },
+   {
+    "url": "https://rop.mzadcom.om/services/public/api/active_categories?active=1",
     "items": 0
    },
    {
@@ -539,11 +557,11 @@
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/get_departments?undefined",
+    "url": "https://rop.mzadcom.om/services/public/api/active_categories?undefined",
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/active_categories?undefined",
+    "url": "https://rop.mzadcom.om/services/public/api/get_departments?undefined",
     "items": 0
    },
    {
@@ -719,7 +737,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-17 08:57:40",
     "updated_at": "2026-11-17 08:57:40",
-    "server_time": "2026-11-22 10:26:24",
+    "server_time": "2026-11-22 10:35:36",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -846,7 +864,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-16 13:48:09",
     "updated_at": "2026-11-16 13:48:09",
-    "server_time": "2026-11-22 10:26:24",
+    "server_time": "2026-11-22 10:35:36",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -862,6 +880,16 @@
    }
   ],
   "items": 29,
+  "direct_api": [
+   {
+    "url": "https://rop.mzadcom.om/services/public/api/all_auctions?type=active&limit=100&page=1&lang=ar",
+    "items": 29
+   },
+   {
+    "url": "https://rop.mzadcom.om/services/public/api/all_auctions?type=upcoming&limit=100&page=1&lang=ar",
+    "items": 0
+   }
+  ],
   "anchors_sample": [
    "https://apps.apple.com/qa/app/mzadcom/id6754008508",
    "https://play.google.com/store/apps/details?id=com.mzadcom.mzadcom",
@@ -945,11 +973,11 @@
    },
    {
     "href": "https://safqaauctions.om/lot/lot_EpNNmHwUdHDTfizR",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n****\n280\n١٬٨١٠ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•*••\n280\n١٬٨١٠ مشاهدات\nعرض التفاصيل"
    },
    {
     "href": "https://safqaauctions.om/auctions/evt_Dr85qnz1HVKPwpA7",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n****\n280\n١٬٨١٠ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•*••\n280\n١٬٨١٠ مشاهدات\nعرض التفاصيل"
    }
   ],
   "json_full": [],
@@ -1015,5 +1043,445 @@
   ],
   "json_items": 0
  },
- "js_error": "name 'item_from_text' is not defined"
+ "mazadoman": {
+  "pages": [
+   {
+    "url": "https://mazad.om/auctions",
+    "cards": 167
+   },
+   {
+    "url": "https://mazad.om/",
+    "cards": 14
+   },
+   {
+    "url": "https://mazad.om/auctions?cat=Real%20Estate&view=1",
+    "cards": 17
+   },
+   {
+    "url": "https://mazad.om/auctions?cat=Cars&view=1",
+    "cards": 50
+   },
+   {
+    "url": "https://mazad.om/auctions?cat=Various%20Items&view=1",
+    "cards": 25
+   },
+   {
+    "url": "https://mazad.om/auctions?cat=Animals&view=1",
+    "cards": 106
+   }
+  ],
+  "apis": [
+   {
+    "url": "https://mazad.om/assets/i18n/ar.json",
+    "items": 0
+   },
+   {
+    "url": "https://api.mazad.om/mazad/api/v1/items/auctions?category_name=null",
+    "items": 157
+   },
+   {
+    "url": "https://mazad.om/assets/i18n/ar.json",
+    "items": 0
+   },
+   {
+    "url": "https://api.mazad.om/mazad/api/v1/sliders/today/WEB",
+    "items": 0
+   },
+   {
+    "url": "https://api.mazad.om/mazad/api/v1/items/home?limit=4",
+    "items": 20
+   },
+   {
+    "url": "https://mazad.om/assets/i18n/ar.json",
+    "items": 0
+   },
+   {
+    "url": "https://api.mazad.om/mazad/api/v1/items/auctions?category_name=Real%20Estate",
+    "items": 6
+   },
+   {
+    "url": "https://mazad.om/assets/i18n/ar.json",
+    "items": 0
+   },
+   {
+    "url": "https://api.mazad.om/mazad/api/v1/items/auctions?category_name=Cars",
+    "items": 40
+   },
+   {
+    "url": "https://mazad.om/assets/i18n/ar.json",
+    "items": 0
+   },
+   {
+    "url": "https://api.mazad.om/mazad/api/v1/items/auctions?category_name=Various%20Items",
+    "items": 15
+   },
+   {
+    "url": "https://mazad.om/assets/i18n/ar.json",
+    "items": 0
+   },
+   {
+    "url": "https://api.mazad.om/mazad/api/v1/items/auctions?category_name=Animals",
+    "items": 96
+   }
+  ],
+  "raw_cards": [
+   {
+    "href": "https://mazad.om/home",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/ownerauctions",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/auctions",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/contac-us",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/users-guidline",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/profile",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/home",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/ownerauctions",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/auctions",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/contac-us",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/users-guidline",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/profile",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/home",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/ownerauctions",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   },
+   {
+    "href": "https://mazad.om/auctions",
+    "text": "×\nالرئيسية\nعن مزاد عمان\nالمؤسسة (المزاد)\nالسلع\nالأسئلة الشائعة\nتواصل معنا\nدليل المستخدم\nالملف الشخصي\nasfsafsa"
+   }
+  ],
+  "json_full": [
+   {
+    "code": "MZ-7-7",
+    "current_price": "100.0",
+    "end_date": "Mon, 23 Nov 2026 06:00:00 GMT",
+    "extension_period": "120",
+    "id": "bb711b50-421c-4884-82e6-cf963c00bf05",
+    "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/91014b8b-bd69-42af-a345-3299965422cd', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/3709a812-28a1-4d41-9739-541e6105a86b'}, 'id': '5dee390a-7de7-4955-b286-3d0a900d6f4c'}",
+    "item_status": "bid",
+    "min_bid": "20.0",
+    "modified_date": "Sun, 22 Nov 2026 10:36:24 GMT",
+    "owner_title": "{'ar': 'مزاد افراد', 'en': 'Individuals Auction'}",
+    "start_date": "Thu, 19 Nov 2026 20:00:00 GMT",
+    "title": "{'ar': 'رقم 1 : رخام - محافظة الداخلية - ولاية الحمراء ', 'en': 'No. 1: Marble - Ad Dakhiliyah Governorate - Al Hamra Wilayat'}",
+    "total_bids": "0"
+   },
+   {
+    "code": "MOD-21-1",
+    "current_price": "100.0",
+    "end_date": "Thu, 03 Dec 2026 06:00:00 GMT",
+    "extension_period": "120",
+    "id": "2f303464-e25c-4dca-af92-e246288f46dc",
+    "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/d5127e8d-79c3-426b-b57d-53c7bf7314c4', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/23642491-8835-4673-8a61-884a1b433b91'}, 'id': 'b0d3f2c9-e651-4383-8950-8381f552aa07'}",
+    "item_status": "open",
+    "min_bid": "50.0",
+    "modified_date": "Sun, 22 Nov 2026 10:31:45 GMT",
+    "owner_title": "{'ar': 'وزارة الدفاع', 'en': 'Ministry of Defense'}",
+    "start_date": "Mon, 30 Nov 2026 20:00:00 GMT",
+    "title": "{'ar': 'الرقم1: خردة حديد عامة + مصدات مطاطية + قوارب', 'en': 'NO1: General Scrap Iron, Rubber Bumpers and Boats Group'}",
+    "total_bids": "0"
+   }
+  ],
+  "items": 161,
+  "anchors_sample": [
+   "https://apps.apple.com/om/app/mazad-oman/id6471911518?l=ar",
+   "https://mazad.om/",
+   "https://mazad.om/#",
+   "https://mazad.om/#myCarousel",
+   "https://mazad.om/about",
+   "https://mazad.om/auctions",
+   "https://mazad.om/auctions?cat=Animals&view=1",
+   "https://mazad.om/auctions?cat=Cars&view=1",
+   "https://mazad.om/auctions?cat=Real%20Estate&view=1",
+   "https://mazad.om/auctions?cat=Various%20Items&view=1",
+   "https://mazad.om/contac-us",
+   "https://mazad.om/contac-us?cat=private",
+   "https://mazad.om/contac-us?cat=public",
+   "https://mazad.om/faq",
+   "https://mazad.om/home",
+   "https://mazad.om/index.html",
+   "https://mazad.om/ownerauctions",
+   "https://mazad.om/profile",
+   "https://mazad.om/search",
+   "https://mazad.om/terms_and_conditions",
+   "https://mazad.om/users-guidline",
+   "https://play.google.com/store/apps/details?id=mazad.om",
+   "https://twitter.com/mazad_oman?lang=en",
+   "https://whatsapp.com/channel/0029VaB9QCP7YSd6jPFLrE23",
+   "https://www.facebook.com/mazad.oman1",
+   "https://www.instagram.com/mazad.oman/?hl=en"
+  ],
+  "json_items": 161
+ },
+ "bidproc": {
+  "pages": [
+   {
+    "url": "https://bidproc.com/",
+    "cards": 33
+   },
+   {
+    "url": "https://bidproc.com/events",
+    "cards": 19
+   }
+  ],
+  "apis": [
+   {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "items": 0
+   },
+   {
+    "url": "https://settings.luckyorange.net/?u=https%3A%2F%2Fbidproc.com%2F&s=179081",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/config?domain=aHR0cHM6Ly9iaWRwcm9jLmNvbQ==",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/widget_info_v2?locales=ar-OM,ar-OM&platform=web",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/96d6ad6f-e4e8-49e7-bbfa-732690c8adac/activity?widgetInfoTraceId=bdb6f4d5-3084-4f3c-a441-a78dc61f1a36",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/faq/category?platform=web&locales=ar-OM%2Car-OM&since=&lastLocaleId=&widgetUuid=default",
+    "items": 0
+   },
+   {
+    "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "items": 0
+   },
+   {
+    "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i6!2i39!3i27!1m4!1m3!1i6!2i39!3i28!1m4!1m3!1i6!2i40!3i27!1m4!1m3!1i6!2i41!3i27!1m4!1m3!1i6!2i42!3i27!1m4!1m3!1i6!2i43!3i27!1m4!1m3!1i6!2i40!3i28!1m4!1m3!1i6",
+    "items": 0
+   },
+   {
+    "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "items": 0
+   },
+   {
+    "url": "https://settings.luckyorange.net/?u=https%3A%2F%2Fbidproc.com%2Fevents&s=179081",
+    "items": 0
+   },
+   {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "items": 0
+   },
+   {
+    "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "items": 0
+   },
+   {
+    "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i6!2i39!3i27!1m4!1m3!1i6!2i39!3i28!1m4!1m3!1i6!2i40!3i27!1m4!1m3!1i6!2i41!3i27!1m4!1m3!1i6!2i42!3i27!1m4!1m3!1i6!2i43!3i27!1m4!1m3!1i6!2i40!3i28!1m4!1m3!1i6",
+    "items": 0
+   },
+   {
+    "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/config?domain=aHR0cHM6Ly9iaWRwcm9jLmNvbQ==",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/widget_info_v2?locales=ar-OM,ar-OM&platform=web",
+    "items": 0
+   },
+   {
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/faq/category?platform=web&locales=ar-OM%2Car-OM&since=&lastLocaleId=999&widgetUuid=default",
+    "items": 0
+   }
+  ],
+  "raw_cards": [
+   {
+    "href": "https://bgi.bidproc.com/",
+    "text": "+968 7110 1765\nenquiry@bidproc.com\nRegister Now\nLogin\nHome\nServices\nPartner Program\nHow It Works\nFAQ\nContact\nAbout\nAbout bidproc\nRequest for Quote"
+   },
+   {
+    "href": "https://bidproc.com/",
+    "text": "Home\nServices\nPartner Program\nHow It Works\nFAQ\nContact\nAbout\nAbout bidproc\nRequest for Quote"
+   },
+   {
+    "href": "https://bidproc.com/forward-eauctions",
+    "text": "Forward eAuctions\n                                Reverse eAuctions\n                               eTendering                            \n                                \n                                    bidproc case studies\n                                    \n                                          Carillion Allawi LLC \n                     "
+   },
+   {
+    "href": "https://bidproc.com/reverse-eauctions",
+    "text": "Forward eAuctions\n                                Reverse eAuctions\n                               eTendering                            \n                                \n                                    bidproc case studies\n                                    \n                                          Carillion Allawi LLC \n                     "
+   },
+   {
+    "href": "https://bidproc.com/etenders",
+    "text": "Forward eAuctions\n                                Reverse eAuctions\n                               eTendering                            \n                                \n                                    bidproc case studies\n                                    \n                                          Carillion Allawi LLC \n                     "
+   },
+   {
+    "href": "https://bidproc.com/casestudies/carillion",
+    "text": "Carillion Allawi LLC \n                                          Daleel Petroleum   \n                                          MBPS   \n                                          OOMCO \n                                          Al Jazeera"
+   },
+   {
+    "href": "https://bgi.bidproc.com/",
+    "text": "+968 7110 1765\nenquiry@bidproc.com\nRegister Now\nLogin\nHome\nServices\nPartner Program\nHow It Works\nFAQ\nContact\nAbout\nAbout bidproc\nRequest for Quote"
+   },
+   {
+    "href": "https://bidproc.com/",
+    "text": "Home\nServices\nPartner Program\nHow It Works\nFAQ\nContact\nAbout\nAbout bidproc\nRequest for Quote"
+   },
+   {
+    "href": "https://bidproc.com/forward-eauctions",
+    "text": "Forward eAuctions\n                                Reverse eAuctions\n                               eTendering                            \n                                \n                                    bidproc case studies\n                                    \n                                          Carillion Allawi LLC \n                     "
+   },
+   {
+    "href": "https://bidproc.com/reverse-eauctions",
+    "text": "Forward eAuctions\n                                Reverse eAuctions\n                               eTendering                            \n                                \n                                    bidproc case studies\n                                    \n                                          Carillion Allawi LLC \n                     "
+   },
+   {
+    "href": "https://bidproc.com/etenders",
+    "text": "Forward eAuctions\n                                Reverse eAuctions\n                               eTendering                            \n                                \n                                    bidproc case studies\n                                    \n                                          Carillion Allawi LLC \n                     "
+   },
+   {
+    "href": "https://bidproc.com/casestudies/carillion",
+    "text": "Carillion Allawi LLC \n                                          Daleel Petroleum   \n                                          MBPS   \n                                          OOMCO \n                                          Al Jazeera"
+   }
+  ],
+  "json_full": [],
+  "items": 0,
+  "anchors_sample": [
+   "http://www.facebook.com/BGIInsights/",
+   "http://www.twitter.com/BGIInsights/",
+   "http://www.youtube.com/channel/UC7soraE_QQBjqiMX8t8rWPA",
+   "https://bgi.bidproc.com/",
+   "https://bgi.bidproc.com/common/user/bidderRegistration",
+   "https://bidproc.com/",
+   "https://bidproc.com/#",
+   "https://bidproc.com/#bidservices",
+   "https://bidproc.com/#carousel-example-generic",
+   "https://bidproc.com/#eauction",
+   "https://bidproc.com/#tenderevent",
+   "https://bidproc.com//brochures/bidproc_eTendering_eAuction_Brochure.pdf?v=1",
+   "https://bidproc.com/Privacy%20Protection",
+   "https://bidproc.com/about",
+   "https://bidproc.com/auctioneer",
+   "https://bidproc.com/casestudies/Al-Jazeera",
+   "https://bidproc.com/casestudies/carillion",
+   "https://bidproc.com/casestudies/daleel",
+   "https://bidproc.com/casestudies/mbps",
+   "https://bidproc.com/casestudies/oomco",
+   "https://bidproc.com/contact",
+   "https://bidproc.com/cookie",
+   "https://bidproc.com/etenders",
+   "https://bidproc.com/events",
+   "https://bidproc.com/events#",
+   "https://bidproc.com/events-authority",
+   "https://bidproc.com/faq",
+   "https://bidproc.com/forward-eauctions",
+   "https://bidproc.com/how-it-works",
+   "https://bidproc.com/partner-program",
+   "https://bidproc.com/privacy",
+   "https://bidproc.com/request-quote",
+   "https://bidproc.com/reverse-eauctions",
+   "https://bidproc.com/signup",
+   "https://bidproc.com/site/archiveview",
+   "https://bidproc.com/site/archiveview?tab=tenderarchive",
+   "https://bidproc.com/sitemap",
+   "https://bidproc.com/terms",
+   "https://businessgateways.com/",
+   "https://businessgateways.com/what-we-do",
+   "https://www.businessgateways.com/",
+   "https://www.facebook.com/bidproc",
+   "https://www.instagram.com/bidproc/",
+   "https://www.instagram.com/businessgateways/",
+   "https://www.linkedin.com/company/2458406/",
+   "https://www.linkedin.com/showcase/bidproc/",
+   "https://x.com/bidprocInsights",
+   "mailto:enquiry@bidproc.com",
+   "tel:+968 7110 1765"
+  ],
+  "json_items": 0
+ },
+ "mctbids": {
+  "pages": [
+   {
+    "url": "https://www.mctbids.com/",
+    "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mctbids.com/\", waiting until \"domcontentloaded\"\n"
+   },
+   {
+    "url": "https://www.mctbids.com/auctions",
+    "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mctbids.com/auctions\", waiting until \"domcontentloaded\"\n"
+   }
+  ],
+  "apis": [],
+  "raw_cards": [],
+  "json_full": [],
+  "items": 0,
+  "anchors_sample": [],
+  "json_items": 0
+ },
+ "muscatauction": {
+  "pages": [
+   {
+    "url": "https://www.muscatauction.com/",
+    "cards": 1
+   }
+  ],
+  "apis": [],
+  "raw_cards": [
+   {
+    "href": "https://support.google.com/websearch/answer/86640",
+    "text": "تظهر هذه الصفحة عند اكتشاف Google تلقائيًا لطلبات واردة من شبكة الكمبيوتر الخاصة بك والتي يتضح أنها تنتهك بنود الخدمة. وينتهي الحظر بعد توقف هذه الطلبات مباشرة. في أثناء ذلك، يتيح لك حل اختبار CAPTCHA أعلاه متابعة استخدام خدماتنا.ربما تم إرسال حركة البيانات هذه من خلال برنامج ضار أو مكون إضافي أو نص برمجي يرسل طلبات تلقائية. إذا كنت تشارك اتصال الش"
+   }
+  ],
+  "json_full": [],
+  "items": 0,
+  "anchors_sample": [
+   "https://support.google.com/websearch/answer/86640",
+   "https://www.google.com/policies/terms/",
+   "https://www.google.com/sorry/index?continue=https://www.muscatauction.com/&q=EgQ08t3xGOaditgGIi2X9lCwr82VHitwqQpJuEgdF1OzL6RtEscLktxEdiG7czVto6aLkYQfcd3b10oyAnJSWgFDYMLmn6ma_sfQOQ#"
+  ],
+  "json_items": 0
+ }
 }
