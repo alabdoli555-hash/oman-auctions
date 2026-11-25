@@ -1,5 +1,5 @@
 {
- "run": "2026-11-25T07:04:46.956409+04:00",
+ "run": "2026-11-25T17:03:01.200010+04:00",
  "ebid_links": 97,
  "ebid_items": 97,
  "mzadcom": {
@@ -71,11 +71,11 @@
     "items": 0
    },
    {
-    "url": "https://mzadcom.om/services/public/api/about_counts",
+    "url": "https://mzadcom.om/services/public/api/auctions_chart_data/main",
     "items": 0
    },
    {
-    "url": "https://mzadcom.om/services/public/api/auctions_chart_data/main",
+    "url": "https://mzadcom.om/services/public/api/about_counts",
     "items": 0
    },
    {
@@ -102,35 +102,35 @@
   "raw_cards": [
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٧:٠٩:١٥ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٥:٠٧:٢٩ م\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٧:٠٩:١٥ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٥:٠٧:٢٩ م\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4740",
-    "text": "القادمة\nNizwa\nيبدأ بعد\n14\nيوم\n03\nساعة\n50\nدقيقة\n47\nثانية\nMZAD-4740\nخردة متنوعة\nأصول أدوات الحفر السفلي\nمجموع المزادات\n1  \nمبلغ الضمان\n500.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n09/12/2026\nالأربعاء\n11:00 AM\nتاريخ الإنتهاء\n10/12/2026\nالخميس\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nNizwa\nيبدأ بعد\n13\nيوم\n17\nساعة\n52\nدقيقة\n32\nثانية\nMZAD-4740\nخردة متنوعة\nأصول أدوات الحفر السفلي\nمجموع المزادات\n1  \nمبلغ الضمان\n500.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n09/12/2026\nالأربعاء\n11:00 AM\nتاريخ الإنتهاء\n10/12/2026\nالخميس\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4738",
-    "text": "القادمة\nFahood\nيبدأ بعد\n12\nيوم\n03\nساعة\n50\nدقيقة\n47\nثانية\nMZAD-4738\nالمواد الفائضة\nمولدات الديزل\nمجموع المزادات\n1  \nمبلغ الضمان\n5000.00\nمبلغ البدء\n5,000\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n5000\nتاريخ البدء\n07/12/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n08/12/2026\nالثلاثاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nFahood\nيبدأ بعد\n11\nيوم\n17\nساعة\n52\nدقيقة\n32\nثانية\nMZAD-4738\nالمواد الفائضة\nمولدات الديزل\nمجموع المزادات\n1  \nمبلغ الضمان\n5000.00\nمبلغ البدء\n5,000\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n5000\nتاريخ البدء\n07/12/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n08/12/2026\nالثلاثاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4735",
-    "text": "القادمة\nmuscat\nيبدأ بعد\n06\nيوم\n03\nساعة\n50\nدقيقة\n47\nثانية\nMZAD-4735\nخردة متنوعة\nالمجموعة 1: مواد مستعملة المتحف الوطني\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسج"
+    "text": "القادمة\nmuscat\nيبدأ بعد\n05\nيوم\n17\nساعة\n52\nدقيقة\n32\nثانية\nMZAD-4735\nخردة متنوعة\nالمجموعة 1: مواد مستعملة المتحف الوطني\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسج"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4736",
-    "text": "القادمة\nmuscat\nيبدأ بعد\n06\nيوم\n03\nساعة\n50\nدقيقة\n47\nثانية\nMZAD-4736\nخردة متنوعة\nالمجموعة 2: إلكترونيات مستعملة\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:10 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nmuscat\nيبدأ بعد\n05\nيوم\n17\nساعة\n52\nدقيقة\n32\nثانية\nMZAD-4736\nخردة متنوعة\nالمجموعة 2: إلكترونيات مستعملة\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:10 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٧:٠٩:٢٦ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٥:٠٧:٤٥ م\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٧:٠٩:٢٦ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٥:٠٧:٤٥ م\nتسجيل الدخول"
    },
    {
     "href": "http://dgitcom.com/",
@@ -146,11 +146,11 @@
    },
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٧:٠٩:٤٠ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٥:٠٨:٠٠ م\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٧:٠٩:٤٠ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٥-١١-٢٠٢٦ ٠٥:٠٨:٠٠ م\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auctions?cat=real_estate",
@@ -229,7 +229,7 @@
     "auction_liked": "False",
     "auction_wishlisted": "False",
     "calendar": "False",
-    "total_views": "12",
+    "total_views": "15",
     "latitude": "22.849",
     "longitude": "57.484",
     "contract_number": "None",
@@ -243,7 +243,7 @@
     "auctions_count": "1",
     "registartion_status": "open",
     "my_rank": "None",
-    "days_remaining": "14",
+    "days_remaining": "13",
     "winner": "[]",
     "winner_file": "False",
     "location": "Nizwa",
@@ -278,7 +278,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-23 15:31:51",
     "updated_at": "2026-11-23 15:31:51",
-    "server_time": "2026-11-25 07:09:02",
+    "server_time": "2026-11-25 17:07:16",
     "is_vat_included": "1",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -358,7 +358,7 @@
     "auction_liked": "False",
     "auction_wishlisted": "False",
     "calendar": "False",
-    "total_views": "15",
+    "total_views": "18",
     "latitude": "22.317",
     "longitude": "56.519",
     "contract_number": "None",
@@ -372,7 +372,7 @@
     "auctions_count": "1",
     "registartion_status": "open",
     "my_rank": "None",
-    "days_remaining": "12",
+    "days_remaining": "11",
     "winner": "[]",
     "winner_file": "False",
     "location": "Fahood",
@@ -407,7 +407,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-23 10:44:08",
     "updated_at": "2026-11-23 10:44:08",
-    "server_time": "2026-11-25 07:09:02",
+    "server_time": "2026-11-25 17:07:16",
     "is_vat_included": "1",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -506,7 +506,7 @@
    },
    {
     "url": "https://rop.mzadcom.om/",
-    "cards": 32
+    "cards": 29
    }
   ],
   "apis": [
@@ -523,10 +523,6 @@
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/active_organizations?",
-    "items": 0
-   },
-   {
     "url": "https://rop.mzadcom.om/services/public/api/banners",
     "items": 0
    },
@@ -536,6 +532,10 @@
    },
    {
     "url": "https://rop.mzadcom.om/services/public/api/active_categories?limit=5",
+    "items": 0
+   },
+   {
+    "url": "https://rop.mzadcom.om/services/public/api/active_organizations?",
     "items": 0
    },
    {
@@ -609,18 +609,6 @@
     "text": "الطابق الأول، شارع 23 يوليو، الغبرة الجنوبية، ص.ب. مسقط، سلطنة عمان، مسقط 3"
    },
    {
-    "href": "https://rop.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n4\nالمزادات القادمة\n0\nالمزادات السابقة\n2160\nالمزادات\n2164\nمباشر\n0\nPrevious\nنشط\nمجموعة قطع غيار مستهلكة - سمائل\nرقم المزاد : MZAD5330\n200 ر.ع\n قائمة المزادات\n \nالتسجي"
-   },
-   {
-    "href": "https://rop.mzadcom.om/auctions",
-    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n4\nالمزادات القادمة\n0\nالمزادات السابقة\n2160\nالمزادات\n2164\nمباشر\n0\nPrevious\nنشط\nمجموعة قطع غيار مستهلكة - سمائل\nرقم المزاد : MZAD5330\n200 ر.ع\n قائمة المزادات\n \nالتسجي"
-   },
-   {
-    "href": "https://rop.mzadcom.om/comp-registration",
-    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n4\nالمزادات القادمة\n0\nالمزادات السابقة\n2160\nالمزادات\n2164\nمباشر\n0\nPrevious\nنشط\nمجموعة قطع غيار مستهلكة - سمائل\nرقم المزاد : MZAD5330\n200 ر.ع\n قائمة المزادات\n \nالتسجي"
-   },
-   {
     "href": "https://rop.mzadcom.om/auctions?sec=main&category=1",
     "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
    },
@@ -630,6 +618,18 @@
    },
    {
     "href": "https://rop.mzadcom.om/auctions?sec=main&category=3",
+    "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
+   },
+   {
+    "href": "https://rop.mzadcom.om/auctions?sec=main&category=4",
+    "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
+   },
+   {
+    "href": "https://rop.mzadcom.om/auctions?sec=main&category=5",
+    "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
+   },
+   {
+    "href": "https://rop.mzadcom.om/category-list",
     "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
    }
   ],
@@ -703,7 +703,7 @@
     "auction_liked": "False",
     "auction_wishlisted": "False",
     "calendar": "False",
-    "total_views": "9",
+    "total_views": "13",
     "latitude": "23.576438123927712",
     "longitude": "58.13485670550246",
     "contract_number": "539",
@@ -717,7 +717,7 @@
     "auctions_count": "1",
     "registartion_status": "open",
     "my_rank": "None",
-    "days_remaining": "7",
+    "days_remaining": "6",
     "winner": "{'service_charge': 2, 'vat_service_charge': 0, 'item_amount_vat': 0, 'total_amount': 0, 'invoice_sequence': ''}",
     "winner_file": "False",
     "location": "Seeb",
@@ -747,7 +747,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-24 08:47:19",
     "updated_at": "2026-11-24 08:47:19",
-    "server_time": "2026-11-25 07:09:51",
+    "server_time": "2026-11-25 17:08:10",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -758,7 +758,7 @@
     "loc_info": "{'id': 5, 'name': 'Seeb', 'name_ar': 'السيب', 'latitude': '23.6821956', 'longitude': '58.1843842', 'department': 1, 'created_at': '2024-12-16T17:28:08.000000Z', 'updated_at': '2024-12-16T17:28:08.000000Z'}",
     "department_id": "1",
     "dep_info": "{'id': 1, 'name': 'Muscat Governorate Police Headquarter', 'name_ar': 'قيادة شرطة محافظة مسقط', 'region': 'Muscat Governorate ', 'region_ar': 'محافظة مسقط', 'deleted': 0, 'created_at': '2024-12-16T11:43:15.000000Z', 'updated_at': '2024-12-16T16:40:55.000000Z'}",
-    "no_of_days": "8",
+    "no_of_days": "7",
     "sub_division_id": "16"
    },
    {
@@ -830,7 +830,7 @@
     "auction_liked": "False",
     "auction_wishlisted": "False",
     "calendar": "False",
-    "total_views": "6",
+    "total_views": "7",
     "latitude": "26.179452319446717",
     "longitude": "56.24635599842063",
     "contract_number": "526",
@@ -844,7 +844,7 @@
     "auctions_count": "1",
     "registartion_status": "open",
     "my_rank": "None",
-    "days_remaining": "6",
+    "days_remaining": "5",
     "winner": "{'service_charge': 2, 'vat_service_charge': 0, 'item_amount_vat': 0, 'total_amount': 0, 'invoice_sequence': ''}",
     "winner_file": "False",
     "location": "Khasab",
@@ -874,7 +874,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-24 08:46:38",
     "updated_at": "2026-11-24 08:46:38",
-    "server_time": "2026-11-25 07:09:51",
+    "server_time": "2026-11-25 17:08:10",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -885,7 +885,7 @@
     "loc_info": "{'id': 17, 'name': 'Khasab', 'name_ar': 'خصب', 'latitude': '', 'longitude': '', 'department': 3, 'created_at': None, 'updated_at': None}",
     "department_id": "3",
     "dep_info": "{'id': 3, 'name': 'Musandam Governorate Police Headquarter', 'name_ar': 'قيادة شرطة محافظة مسندم', 'region': 'Musandam Governorate ', 'region_ar': 'محافظة مسندم', 'deleted': 0, 'created_at': '2024-12-16T12:02:16.000000Z', 'updated_at': '2024-12-16T16:42:32.000000Z'}",
-    "no_of_days": "7",
+    "no_of_days": "6",
     "sub_division_id": "1"
    }
   ],
@@ -985,11 +985,11 @@
    },
    {
     "href": "https://safqaauctions.om/lot/lot_EpNNmHwUdHDTfizR",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•**•\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•***\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
    },
    {
     "href": "https://safqaauctions.om/auctions/evt_Dr85qnz1HVKPwpA7",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•**•\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•***\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
    }
   ],
   "json_full": [],
@@ -1207,7 +1207,7 @@
     "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/0cf41a0b-0282-45e6-88ed-91c9bc5e6d91', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/fe48af4c-6f8e-4a29-8054-ff25ff20aa37'}, 'id': '3f396078-4507-403e-9e0e-0c20ced6baab'}",
     "item_status": "open",
     "min_bid": "100.0",
-    "modified_date": "Wed, 25 Nov 2026 07:02:25 GMT",
+    "modified_date": "Wed, 25 Nov 2026 17:06:33 GMT",
     "owner_title": "{'ar': 'مزاد البركة المركبات ', 'en': 'Al Baraka Vehicles Auction'}",
     "start_date": "Tue, 01 Dec 2026 20:00:00 GMT",
     "title": "{'ar': 'الرقم 1 : ميتسوبيشي إل 200 بيك أب', 'en': 'NO1: Mitsubishi L200 Pick-up'}",
@@ -1222,7 +1222,7 @@
     "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/a39a7c5c-42e6-4898-885d-8c2b0abc158e', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/d030096f-8a87-491f-b659-7a3529c7c9d0'}, 'id': '6297eada-215f-41e6-85ab-30afa3b2da71'}",
     "item_status": "open",
     "min_bid": "100.0",
-    "modified_date": "Wed, 25 Nov 2026 06:58:56 GMT",
+    "modified_date": "Wed, 25 Nov 2026 17:06:33 GMT",
     "owner_title": "{'ar': 'مزاد البركة المركبات ', 'en': 'Al Baraka Vehicles Auction'}",
     "start_date": "Tue, 01 Dec 2026 20:00:00 GMT",
     "title": "{'ar': 'الرقم 2 : ميتسوبيشي إل 200 بيك أب', 'en': 'NO2: Mitsubishi L200 Pick-up'}",
@@ -1294,7 +1294,7 @@
     "items": 0
    },
    {
-    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/889433f9-623f-4bc4-aae6-b0cca91c0c47/activity?widgetInfoTraceId=792fc538-f1ee-4cb0-b506-3ea30d692846",
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/7805ee3a-23c6-407e-869f-c43940bfd200/activity?widgetInfoTraceId=d131c931-6c3b-4866-b22d-8cbda3f8591c",
     "items": 0
    },
    {
