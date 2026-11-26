@@ -13,13 +13,18 @@
 :root{color-scheme:light dark;
   --bg:light-dark(#ffffff,#121212);--ink:light-dark(#151515,#f1f1f1);--mute:light-dark(#5f6368,#a8adb4);
   --line:light-dark(#e6e6e6,#2a2a2a);--card:light-dark(#fafafa,#1b1b1b);
-  --red:#b5121b;--red2:light-dark(#fdecec,#3a1416);
-  --land:light-dark(#0f766e,#2dd4bf);--car:light-dark(#1d4ed8,#7aa2ff);--proj:light-dark(#a16207,#facc15);--num:light-dark(#7c3aed,#b79bff)}
+  --red:#b5121b;--red2:light-dark(#fdecec,#3a1416);--hero:var(--red);
+  --land:light-dark(#0f766e,#2dd4bf);--car:light-dark(#1d4ed8,#7aa2ff);--proj:light-dark(#a16207,#facc15);--num:light-dark(#7c3aed,#b79bff);--home:light-dark(#be185d,#f472b6)}
+body.ads{--hero:#0f5f59}
 *{box-sizing:border-box;min-width:0}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "IBM Plex Sans Arabic",system-ui,Tahoma,sans-serif;overflow-x:clip}
 h1,h2,.num{font-family:"Readex Pro","IBM Plex Sans Arabic",sans-serif}
 .wrap{max-width:1000px;margin:0 auto;padding:0 max(4vw,16px)}
-.hero{background:var(--red);color:#fff;padding:22px 0 26px}
+.hero{background:var(--hero);color:#fff;padding:14px 0 26px;transition:background .25s}
+.mode{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:rgba(0,0,0,.22);border-radius:14px;padding:4px;margin-bottom:16px}
+.mode button{border:0;border-radius:11px;background:transparent;color:#fff;font:600 16px "Readex Pro",sans-serif;min-height:44px;cursor:pointer;opacity:.85}
+.mode button.on{background:#fff;color:var(--hero);opacity:1}
+.mode i{font-style:normal;font:500 12.5px "IBM Plex Sans Arabic";opacity:.75;margin-inline-start:6px}
 .hero .top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
 h1{font-size:clamp(30px,6vw,44px);line-height:1.05;margin:0}
 .upd{font-size:13px;opacity:.85}
@@ -30,7 +35,7 @@ h1{font-size:clamp(30px,6vw,44px);line-height:1.05;margin:0}
 .next .sub{font-size:14px;opacity:.9}
 .rem{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:18px}
 .rem button{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:14px;padding:9px;text-align:right;font:inherit;cursor:pointer;min-height:44px}
-.rem button.on{background:#fff;color:var(--red)}
+.rem button.on{background:#fff;color:var(--hero)}
 .rem b{display:block;font-family:"Readex Pro";font-size:24px;line-height:1.1}
 .rem span{font-size:12.5px}
 .alert{margin:14px auto 0;background:var(--red2);border-radius:14px;padding:12px 14px;font-size:15px;display:none}
@@ -52,6 +57,7 @@ input:focus,select:focus,button:focus-visible{outline:2px solid var(--red);outli
 .day h2 small{font:500 13px "IBM Plex Sans Arabic";color:var(--mute)}
 .item{display:grid;grid-template-columns:70px minmax(0,1fr) auto;gap:12px;padding:14px 0;border-top:1px solid var(--line);align-items:start}
 .time{font-family:"Readex Pro";font-size:20px;font-weight:600;line-height:1.15;direction:ltr;text-align:right}
+.time.ago{font-size:15px;direction:rtl}
 .time small{display:block;font:12px "IBM Plex Sans Arabic";color:var(--mute);direction:rtl}
 .t{font-weight:600;font-size:16.5px;line-height:1.45}
 .t a{color:inherit;text-decoration:none}
@@ -75,20 +81,19 @@ input:focus,select:focus,button:focus-visible{outline:2px solid var(--red);outli
 .srcs em{font-style:normal;font-size:13px;font-weight:700;color:var(--land)}
 .srcs em.z{color:var(--mute);font-weight:500}
 @media(max-width:600px){.more{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.more select:first-child{grid-column:1/-1}
-  .item{grid-template-columns:58px minmax(0,1fr) auto;gap:10px}.time{font-size:18px}.rem b{font-size:21px}.rem span{font-size:11.5px}}
+  .item{grid-template-columns:58px minmax(0,1fr) auto;gap:10px}.time{font-size:18px}.time.ago{font-size:13.5px}.rem b{font-size:21px}.rem span{font-size:11.5px}}
 </style>
 </head>
 <body>
 <section class="hero">
   <div class="wrap">
-    <div class="top"><h1>مزادات عُمان</h1><div class="upd" id="upd">جاري التحميل…</div></div>
-    <div class="next" id="next"></div>
-    <div class="rem">
-      <button data-v="today"><b id="nToday">0</b><span>اليوم</span></button>
-      <button data-v="tomorrow"><b id="nTom">0</b><span>بكرة</span></button>
-      <button data-v="new"><b id="nNew">0</b><span>🔴 جديد</span></button>
-      <button data-v="fav"><b id="nFav">0</b><span>⭐ متابعاتي</span></button>
+    <div class="mode" role="tablist">
+      <button data-m="auc" role="tab">🔨 مزادات<i id="mAuc"></i></button>
+      <button data-m="ads" role="tab">📢 إعلانات<i id="mAds"></i></button>
     </div>
+    <div class="top"><h1 id="h1">مزادات عُمان</h1><div class="upd" id="upd">جاري التحميل…</div></div>
+    <div class="next" id="next"></div>
+    <div class="rem" id="rem"></div>
   </div>
 </section>
 <div class="wrap"><div class="alert" id="alert"></div></div>
@@ -99,35 +104,35 @@ input:focus,select:focus,button:focus-visible{outline:2px solid var(--red);outli
     <button class="fbtn" id="fbtn">⚙︎ فلاتر</button>
   </div>
   <div class="more" id="more">
-    <select id="when">
-      <option value="">كل المواعيد</option><option value="0">اليوم</option><option value="1">بكرة</option><option value="2">بعد بكرة</option>
-      <option value="w1">خلال أسبوع</option><option value="w2">خلال أسبوعين</option><option value="later">بعد أسبوعين</option>
-    </select>
+    <select id="when"></select>
     <select id="gov"><option value="">كل المحافظات</option></select>
     <select id="site"><option value="">كل المنصات</option></select>
     <select id="price">
       <option value="">أي سعر</option><option value="1000">حتى 1,000 ر.ع</option><option value="5000">حتى 5,000 ر.ع</option>
       <option value="20000">حتى 20,000 ر.ع</option><option value="50000">حتى 50,000 ر.ع</option><option value="100000">حتى 100,000 ر.ع</option>
     </select>
-    <select id="sort"><option value="time">الأقرب موعداً</option><option value="low">الأقل سعراً</option><option value="high">الأعلى سعراً</option><option value="new">الأحدث نزولاً</option></select>
+    <select id="sort"></select>
   </div>
 </div></div>
 <main class="wrap" id="list"></main>
 <section class="wrap src">
   <h2>المنصات</h2>
-  <p>الرقم جنب كل منصة يعني كم إعلان قادم منها في الصفحة الحين. الصفحة تفحص كل المنصات كل ساعة.</p>
+  <p id="srcNote"></p>
   <div class="srcs" id="srcs"></div>
 </section>
 <script>
 {
-const CAT={land:{n:"🏠 أراضي وعقارات",c:"var(--land)"},car:{n:"🚗 مركبات",c:"var(--car)"},proj:{n:"🏗️ مشاريع ومعدات",c:"var(--proj)"},num:{n:"🔢 أرقام مميزة",c:"var(--num)"}};
+const CATS={
+  auc:{land:{n:"🏠 أراضي وعقارات",c:"var(--land)"},car:{n:"🚗 مركبات",c:"var(--car)"},proj:{n:"🏗️ مشاريع ومعدات",c:"var(--proj)"},num:{n:"🔢 أرقام مميزة",c:"var(--num)"}},
+  ads:{land:{n:"🏠 أراضي",c:"var(--land)"},car:{n:"🚗 سيارات",c:"var(--car)"},home:{n:"🏡 بيوت وفلل",c:"var(--home)"},other:{n:"📦 غيره",c:"var(--proj)"}}};
+const WHEN={auc:[["","كل المواعيد"],["0","اليوم"],["1","بكرة"],["2","بعد بكرة"],["w1","خلال أسبوع"],["w2","خلال أسبوعين"],["later","بعد أسبوعين"]],
+  ads:[["","أي وقت نزل"],["d1","آخر 24 ساعة"],["d3","آخر 3 أيام"],["d7","آخر أسبوع"]]};
+const SORT={auc:[["time","الأقرب موعداً"],["low","الأقل سعراً"],["high","الأعلى سعراً"],["new","الأحدث نزولاً"]],
+  ads:[["new","الأحدث"],["low","الأقل سعراً"],["high","الأعلى سعراً"]]};
 const DAYS=["الأحد","الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت"];
 const MONTHS=["يناير","فبراير","مارس","أبريل","مايو","يونيو","يوليو","أغسطس","سبتمبر","أكتوبر","نوفمبر","ديسمبر"];
 const H=3600e3,D=24*H;
-let items=[],view="all",cat="all";
 const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-let fav=new Set(store.get("fav",[]));
-const lastVisit=store.get("lastVisit",0);
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const omr=p=>p==null?"السعر غير معلن":Number(p).toLocaleString("en-US")+" ر.ع";
@@ -137,25 +142,57 @@ const dayIdx=t=>Math.round((Date.parse(mDay(t))-Date.parse(mDay(Date.now())))/D)
 function dayName(d){const x=new Date(d+"T00:00:00Z");return DAYS[x.getUTCDay()]+" "+x.getUTCDate()+" "+MONTHS[x.getUTCMonth()]}
 function left(ms){const m=Math.floor(ms/6e4),d=Math.floor(m/1440),h=Math.floor(m%1440/60),mm=m%60;
   if(d>0)return `${d} يوم${h?` و${h} ساعة`:""}`;if(h>0)return `${h} ساعة و${mm} دقيقة`;return `${mm} دقيقة`}
+function ago(ms){const m=Math.max(0,Math.floor(ms/6e4));if(m<60)return `قبل ${m} د`;const h=Math.floor(m/60);if(h<24)return `قبل ${h} س`;return `قبل ${Math.floor(h/24)} يوم`}
 function clock(ms){const s=Math.floor(ms/1e3),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),x=s%60,p=n=>String(n).padStart(2,"0");return (d?d+"d ":"")+p(h)+":"+p(m)+":"+p(x)}
-// key time = start if in future, else end, else start
-const key=i=>i.ts&&i.ts>Date.now()?i.ts:(i.te||i.ts||Infinity);
-const alive=i=>{const last=i.te||(i.ts?i.ts+H:null);return last==null||last>Date.now()};
-const isNew=i=>lastVisit&&i.fs>lastVisit;
 
-async function load(){
+let mode=(location.hash==="#ads"?"ads":location.hash==="#auc"?"auc":store.get("mode","auc"));
+const S={auc:{items:[],sources:[],upd:0,view:"all",cat:"all",fav:new Set(store.get("fav",[])),last:store.get("lastVisit",0),fk:"fav",lk:"lastVisit",file:"data.json"},
+         ads:{items:[],sources:[],upd:0,view:"all",cat:"all",fav:new Set(store.get("favAds",[])),last:store.get("lastVisitAds",0),fk:"favAds",lk:"lastVisitAds",file:"ads.json"}};
+const st=()=>S[mode];
+// auctions helpers
+const key=i=>i.ts&&i.ts>Date.now()?i.ts:(i.te||i.ts||Infinity);
+const alive=i=>{if(mode==="ads")return true;const last=i.te||(i.ts?i.ts+H:null);return last==null||last>Date.now()};
+const isNew=i=>st().last&&i.fs>st().last;
+
+async function loadOne(m){
+  const s=S[m];
   try{
-    const r=await fetch("data.json?v="+Date.now(),{cache:"no-store"});
+    const r=await fetch(s.file+"?v="+Date.now(),{cache:"no-store"});
     const d=await r.json();
-    items=d.items.map(i=>({...i,ts:i.start?Date.parse(i.start):null,te:i.end?Date.parse(i.end):null,fs:Date.parse(i.first_seen||d.updated)}));
-    const u=Date.parse(d.updated);
-    $("upd").textContent="آخر فحص: "+dayName(mDay(u))+" "+mTime(u);
-    $("srcs").innerHTML=d.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener"><b>${esc(s.name)}<em class="${s.count?"":"z"}">${s.count?s.count+" إعلان":"لا يوجد حالياً"}</em></b><span>${esc(s.desc)}</span></a>`).join("");
-    const fill=(id,arr,all)=>{$(id).innerHTML=`<option value="">${all}</option>`+arr.map(g=>`<option>${esc(g)}</option>`).join("")};
-    fill("gov",[...new Set(items.map(i=>i.gov).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"ar")),"كل المحافظات");
-    fill("site",[...new Set(items.map(i=>i.src))],"كل المنصات");
-  }catch(e){$("upd").textContent="تعذّر تحميل البيانات، حدّث الصفحة"}
+    s.upd=Date.parse(d.updated);s.sources=d.sources||[];
+    s.items=(d.items||[]).map(i=>({...i,ts:i.start?Date.parse(i.start):null,te:i.end?Date.parse(i.end):null,tp:i.posted?Date.parse(i.posted):null,fs:Date.parse(i.first_seen||d.updated)}));
+    s.ok=true;
+  }catch(e){s.ok=false}
+}
+let first=true;
+async function load(){await Promise.all([loadOne("auc"),loadOne("ads")]);setMode(mode,!first);first=false}
+
+function setMode(m,keepFilters){
+  const keep=keepFilters?Object.fromEntries(["when","gov","site","sort"].map(id=>[id,$(id).value])):{};
+  mode=m;store.set("mode",m);try{history.replaceState(null,"","#"+m)}catch(e){}
+  document.body.classList.toggle("ads",m==="ads");
+  document.querySelectorAll(".mode button").forEach(b=>b.classList.toggle("on",b.dataset.m===m));
+  $("h1").textContent=m==="ads"?"إعلانات عُمان":"مزادات عُمان";
+  document.title=m==="ads"?"إعلانات عُمان":"مزادات عُمان";
+  $("mAuc").textContent=S.auc.items.filter(i=>{const l=i.te||(i.ts?i.ts+H:null);return l==null||l>Date.now()}).length||"";
+  $("mAds").textContent=S.ads.items.length||"";
+  const s=st();
+  $("upd").textContent=s.ok?"آخر فحص: "+dayName(mDay(s.upd))+" "+mTime(s.upd):"تعذّر تحميل البيانات، حدّث الصفحة";
+  $("rem").innerHTML=(m==="ads"
+    ?[["today","nToday","نزل اليوم"],["new","nNew","🔴 جديد"],["fav","nFav","⭐ متابعاتي"],["cheap","nCheap","💰 تحت 10 آلاف"]]
+    :[["today","nToday","اليوم"],["tomorrow","nTom","بكرة"],["new","nNew","🔴 جديد"],["fav","nFav","⭐ متابعاتي"]])
+    .map(([v,id,l])=>`<button data-v="${v}"><b id="${id}">0</b><span>${l}</span></button>`).join("");
+  $("q").placeholder=m==="ads"?"بحث: ولاية، سيارة، موديل، سكني…":"بحث: ولاية، سيارة، رقم، سكني…";
+  $("when").innerHTML=WHEN[m].map(([v,l])=>`<option value="${v}">${l}</option>`).join("");
+  $("sort").innerHTML=SORT[m].map(([v,l])=>`<option value="${v}">${l}</option>`).join("");
+  const fill=(id,arr,all)=>{$(id).innerHTML=`<option value="">${all}</option>`+arr.map(g=>`<option>${esc(g)}</option>`).join("")};
+  fill("gov",[...new Set(s.items.map(i=>i.gov).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"ar")),"كل المحافظات");
+  fill("site",[...new Set(s.items.map(i=>i.src))],"كل المنصات");
+  for(const [id,v] of Object.entries(keep)){if(v&&[...$(id).options].some(o=>o.value===v))$(id).value=v}
+  $("srcNote").textContent=m==="ads"?"الرقم جنب كل منصة يعني كم إعلان منها في الصفحة الحين. الإعلانات تتحدّث كل يوم.":"الرقم جنب كل منصة يعني كم إعلان قادم منها في الصفحة الحين.";
+  $("srcs").innerHTML=s.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.name)}<em class="${x.count?"":"z"}">${x.count?x.count+" إعلان":"لا يوجد حالياً"}</em></b><span>${esc(x.desc)}</span></a>`).join("");
   render();tick();
+  setTimeout(()=>{if(mode===m)store.set(S[m].lk,Date.now())},5000);
 }
 
 function bucket(i){
@@ -170,86 +207,110 @@ function bucket(i){
   if(n<=30)return [5,"بعد أسبوعين"];
   return [6,"بعد شهر وأكثر"];
 }
+function abucket(i){
+  if(!i.tp)return [9,"بدون تاريخ نشر"];
+  const n=-dayIdx(i.tp);
+  if(n<=0)return [0,"نزل اليوم"];if(n===1)return [1,"أمس"];if(n<=7)return [2,"هذا الأسبوع"];return [3,"أقدم"];
+}
 
 function render(){
-  const now=Date.now();
-  const live=items.filter(alive);
-  const by=n=>live.filter(i=>i.ts&&i.ts>now&&dayIdx(i.ts)===n);
-  const nT=live.filter(i=>(i.ts&&dayIdx(i.ts)===0)||(i.ts<=now&&i.te>now)),nM=by(1),nN=live.filter(isNew),nF=live.filter(i=>fav.has(i.id));
-  $("nToday").textContent=nT.length;$("nTom").textContent=nM.length;$("nNew").textContent=nN.length;$("nFav").textContent=nF.length;
-  document.querySelectorAll(".rem button").forEach(b=>b.classList.toggle("on",b.dataset.v===view));
+  const now=Date.now(),s=st(),CAT=CATS[mode],A=mode==="ads";
+  const live=s.items.filter(alive);
+  const nN=live.filter(isNew),nF=live.filter(i=>s.fav.has(i.id));
+  let nT,nM=[];
+  if(A){nT=live.filter(i=>i.tp&&dayIdx(i.tp)===0);nM=live.filter(i=>i.price!=null&&i.price<=10000);
+    $("nToday").textContent=nT.length;$("nCheap").textContent=nM.length}
+  else{nT=live.filter(i=>(i.ts&&dayIdx(i.ts)===0)||(i.ts<=now&&i.te>now));nM=live.filter(i=>i.ts&&i.ts>now&&dayIdx(i.ts)===1);
+    $("nToday").textContent=nT.length;$("nTom").textContent=nM.length}
+  $("nNew").textContent=nN.length;$("nFav").textContent=nF.length;
+  document.querySelectorAll(".rem button").forEach(b=>b.classList.toggle("on",b.dataset.v===s.view));
+
   const msgs=[];
-  const fT=nF.filter(i=>i.ts&&dayIdx(i.ts)===0),fM=nF.filter(i=>i.ts&&dayIdx(i.ts)===1);
-  if(fT.length)msgs.push(`⏰ <b>اليوم</b> من متابعاتك: ${fT.slice(0,3).map(i=>esc(i.title)+" الساعة "+mTime(i.ts)).join("، ")}`);
-  if(fM.length)msgs.push(`📌 <b>بكرة</b> من متابعاتك: ${fM.slice(0,3).map(i=>esc(i.title)+" الساعة "+mTime(i.ts)).join("، ")}`);
+  if(!A){
+    const fT=nF.filter(i=>i.ts&&dayIdx(i.ts)===0),fM=nF.filter(i=>i.ts&&dayIdx(i.ts)===1);
+    if(fT.length)msgs.push(`⏰ <b>اليوم</b> من متابعاتك: ${fT.slice(0,3).map(i=>esc(i.title)+" الساعة "+mTime(i.ts)).join("، ")}`);
+    if(fM.length)msgs.push(`📌 <b>بكرة</b> من متابعاتك: ${fM.slice(0,3).map(i=>esc(i.title)+" الساعة "+mTime(i.ts)).join("، ")}`);
+  }
   if(nN.length)msgs.push(`🔴 نزل ${nN.length} إعلان جديد من آخر زيارة لك.`);
-  if(!fav.size)msgs.push(`اضغط ⭐ على أي مزاد يهمك عشان يطلع لك تذكيره هنا قبل موعده.`);
+  if(!s.fav.size)msgs.push(A?`اضغط ⭐ على أي إعلان يعجبك عشان تحفظه في «متابعاتي».`:`اضغط ⭐ على أي مزاد يهمك عشان يطلع لك تذكيره هنا قبل موعده.`);
   $("alert").innerHTML=msgs.join("<br>");$("alert").classList.toggle("show",msgs.length>0);
 
   const cnt=k=>live.filter(i=>k==="all"||i.cat===k).length;
   $("tabs").innerHTML=[["all","الكل"],...Object.entries(CAT).map(([k,v])=>[k,v.n])]
-    .map(([k,n])=>`<button class="tab ${cat===k?"act":""}" data-k="${k}">${n}<i>${cnt(k)}</i></button>`).join("");
+    .map(([k,n])=>`<button class="tab ${s.cat===k?"act":""}" data-k="${k}">${n}<i>${cnt(k)}</i></button>`).join("");
 
-  const q=$("q").value.trim(),g=$("gov").value,st=$("site").value,pr=+$("price").value||0,w=$("when").value,s=$("sort").value;
-  $("fbtn").classList.toggle("on",!!(g||st||pr||w||s!=="time"));
-  let L=live.filter(i=>(cat==="all"||i.cat===cat)&&(!g||i.gov===g)&&(!st||i.src===st)&&(!pr||(i.price!=null&&i.price<=pr))&&
+  const q=$("q").value.trim(),g=$("gov").value,sv=$("site").value,pr=+$("price").value||0,w=$("when").value,so=$("sort").value||SORT[mode][0][0];
+  $("fbtn").classList.toggle("on",!!(g||sv||pr||w||so!==SORT[mode][0][0]));
+  let L=live.filter(i=>(s.cat==="all"||i.cat===s.cat)&&(!g||i.gov===g)&&(!sv||i.src===sv)&&(!pr||(i.price!=null&&i.price<=pr))&&
     (!q||[i.title,i.place,i.gov,i.sub,i.note,i.src].join(" ").toLowerCase().includes(q.toLowerCase())));
-  if(w){L=L.filter(i=>{const k=key(i);if(k===Infinity)return false;const n=dayIdx(k);
-    return w==="w1"?n<=7:w==="w2"?n<=14:w==="later"?n>14:n===+w})}
-  if(view==="today")L=L.filter(i=>nT.includes(i));
-  if(view==="tomorrow")L=L.filter(i=>nM.includes(i));
-  if(view==="new")L=L.filter(isNew);
-  if(view==="fav")L=L.filter(i=>fav.has(i.id));
-  if(!L.length){$("list").innerHTML=`<div class="empty">${view==="fav"?"ما تابعت أي مزاد بعد. اضغط ⭐ على الإعلان اللي يهمك.":"ما فيه مزادات بهذا الاختيار."}</div>`;return}
+  if(w){
+    if(A){const days=+w.slice(1);L=L.filter(i=>i.tp&&now-i.tp<=days*D)}
+    else L=L.filter(i=>{const k=key(i);if(k===Infinity)return false;const n=dayIdx(k);return w==="w1"?n<=7:w==="w2"?n<=14:w==="later"?n>14:n===+w});
+  }
+  if(s.view==="today")L=L.filter(i=>nT.includes(i));
+  if(s.view==="tomorrow"||s.view==="cheap")L=L.filter(i=>nM.includes(i));
+  if(s.view==="new")L=L.filter(isNew);
+  if(s.view==="fav")L=L.filter(i=>s.fav.has(i.id));
+  if(!L.length){$("list").innerHTML=`<div class="empty">${s.view==="fav"?(A?"ما حفظت أي إعلان بعد. اضغط ⭐ على الإعلان اللي يعجبك.":"ما تابعت أي مزاد بعد. اضغط ⭐ على الإعلان اللي يهمك."):(A?"ما فيه إعلانات بهذا الاختيار.":"ما فيه مزادات بهذا الاختيار.")}</div>`;return}
 
   const row=(i,showDay)=>{
-    const c=CAT[i.cat]||CAT.proj,k=key(i);
-    let cd="";
-    if(i.ts&&i.ts>now)cd=`<span class="cd">يبدأ بعد ${left(i.ts-now)}</span>`;
-    else if(i.te&&i.te>now)cd=`<span class="cd live">جاري • ينتهي بعد ${left(i.te-now)}</span>`;
-    else if(i.ts)cd=`<span class="cd live">جاري الآن</span>`;
-    const tm=k===Infinity?"—":mTime(k);
-    return `<div class="item">
-      <div class="time">${tm}<small>${showDay&&k!==Infinity?dayName(mDay(k)):""}</small></div>
+    const c=CAT[i.cat]||Object.values(CAT)[2];
+    let cd="",tm;
+    if(A){tm=`<div class="time ago">${i.tp?ago(now-i.tp):"—"}</div>`}
+    else{const k=key(i);
+      if(i.ts&&i.ts>now)cd=`<span class="cd">يبدأ بعد ${left(i.ts-now)}</span>`;
+      else if(i.te&&i.te>now)cd=`<span class="cd live">جاري • ينتهي بعد ${left(i.te-now)}</span>`;
+      else if(i.ts)cd=`<span class="cd live">جاري الآن</span>`;
+      tm=`<div class="time">${k===Infinity?"—":mTime(k)}<small>${showDay&&k!==Infinity?dayName(mDay(k)):""}</small></div>`}
+    return `<div class="item">${tm}
       <div><div class="t">${isNew(i)?'<span class="new">جديد</span>':""}<span class="tag" style="--c:${c.c}">${esc(i.sub)}</span><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></div>
-        <div class="meta"><span class="price">💰 ${omr(i.price)}</span>${i.gov||i.place?`<span>📍 ${esc([i.gov,i.place].filter(Boolean).join(" — "))}</span>`:""}${i.area?`<span>📐 ${Number(i.area).toLocaleString("en-US")} م²</span>`:""}${cd}</div>
-        <div class="meta"><span>${esc(i.src)}${i.note?" • "+esc(i.note):""}${i.te&&i.ts?" • ينتهي "+dayName(mDay(i.te))+" "+mTime(i.te):""}</span></div></div>
-      <div class="side"><button class="star ${fav.has(i.id)?"on":""}" data-id="${esc(i.id)}" aria-label="متابعة">${fav.has(i.id)?"★":"☆"}</button><a class="go" href="${esc(i.url)}" target="_blank" rel="noopener">افتح ←</a></div>
+        <div class="meta"><span class="price">💰 ${omr(i.price)}</span>${i.gov||i.place?`<span>📍 ${esc([...new Set([i.gov,i.place].filter(Boolean))].join(" — "))}</span>`:""}${i.area?`<span>📐 ${Number(i.area).toLocaleString("en-US")} م²</span>`:""}${cd}</div>
+        <div class="meta"><span>${esc(i.src)}${i.note?" • "+esc(i.note):""}${!A&&i.te&&i.ts?" • ينتهي "+dayName(mDay(i.te))+" "+mTime(i.te):""}</span></div></div>
+      <div class="side"><button class="star ${s.fav.has(i.id)?"on":""}" data-id="${esc(i.id)}" aria-label="متابعة">${s.fav.has(i.id)?"★":"☆"}</button><a class="go" href="${esc(i.url)}" target="_blank" rel="noopener">افتح ←</a></div>
     </div>`};
 
-  if(s==="time"){
-    L.sort((a,b)=>key(a)-key(b));
-    const groups=[];L.forEach(i=>{const [o,label]=bucket(i);const dk=o<=2&&o>=0?label:o;let gr=groups.find(x=>x.k===dk);if(!gr)groups.push(gr={k:dk,o,label,a:[]});gr.a.push(i)});
+  const grouped=(fn)=>{const groups=[];L.forEach(i=>{const [o,label]=fn(i);const dk=A?o:(o<=2&&o>=0?label:o);let gr=groups.find(x=>x.k===dk);if(!gr)groups.push(gr={k:dk,o,label,a:[]});gr.a.push(i)});
     groups.sort((a,b)=>a.o-b.o);
-    $("list").innerHTML=groups.map(gr=>`<section class="day"><h2>${gr.label}<small>${gr.a.length} مزاد</small></h2>${gr.a.map(i=>row(i,gr.o>2||gr.o<0)).join("")}</section>`).join("");
-  }else{
-    if(s==="new")L.sort((a,b)=>b.fs-a.fs);
-    else L.sort((a,b)=>s==="low"?(a.price??1e12)-(b.price??1e12):(b.price??-1)-(a.price??-1));
+    $("list").innerHTML=groups.map(gr=>`<section class="day"><h2>${gr.label}<small>${gr.a.length} ${A?"إعلان":"مزاد"}</small></h2>${gr.a.map(i=>row(i,gr.o>2||gr.o<0)).join("")}</section>`).join("")};
+  if(A&&so==="new"){L.sort((a,b)=>(b.tp||b.fs)-(a.tp||a.fs));grouped(abucket)}
+  else if(!A&&so==="time"){L.sort((a,b)=>key(a)-key(b));grouped(bucket)}
+  else{
+    if(so==="new")L.sort((a,b)=>b.fs-a.fs);
+    else L.sort((a,b)=>so==="low"?(a.price??1e12)-(b.price??1e12):(b.price??-1)-(a.price??-1));
     $("list").innerHTML=`<section class="day">${L.map(i=>row(i,true)).join("")}</section>`;
   }
 }
 
 function tick(){
-  const now=Date.now(),n=items.filter(i=>i.ts&&i.ts>now).sort((a,b)=>a.ts-b.ts)[0];
+  const now=Date.now(),s=st();
+  if(mode==="ads"){
+    const n=s.items.filter(i=>i.tp).sort((a,b)=>b.tp-a.tp)[0];
+    $("next").innerHTML=n?`<div class="lbl">أحدث إعلان نزل ${ago(now-n.tp)}</div>
+      <div><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></div>
+      <div class="sub">${omr(n.price)} • ${esc([n.gov,n.place].filter(Boolean).join(" — "))} • ${esc(n.src)}</div>`:(s.items.length?"":`<div class="lbl">ما فيه إعلانات حالياً</div>`);
+    return;
+  }
+  const n=s.items.filter(i=>i.ts&&i.ts>now).sort((a,b)=>a.ts-b.ts)[0];
   if(n){
     $("next").innerHTML=`<div class="lbl">المزاد الجاي يبدأ بعد</div>
       <div class="clock num">${clock(n.ts-now)}</div>
       <div><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></div>
       <div class="sub">${dayName(mDay(n.ts))} الساعة ${mTime(n.ts)} • ${omr(n.price)} • ${esc(n.src)}</div>`;
-  }else if(items.length){$("next").innerHTML=`<div class="lbl">ما فيه مزادات قادمة حالياً</div>`}
+  }else if(s.items.length){$("next").innerHTML=`<div class="lbl">ما فيه مزادات قادمة حالياً</div>`}
 }
 
 document.addEventListener("click",e=>{
+  const mb=e.target.closest(".mode button");if(mb){if(mb.dataset.m!==mode){$("q").value="";$("price").value="";setMode(mb.dataset.m)}return}
+  const s=st();
   const sb=e.target.closest(".star");
-  if(sb){const id=sb.dataset.id;fav.has(id)?fav.delete(id):fav.add(id);store.set("fav",[...fav]);render();return}
-  const tb=e.target.closest(".tab");if(tb){cat=tb.dataset.k;render();return}
-  const rb=e.target.closest(".rem button");if(rb){view=view===rb.dataset.v?"all":rb.dataset.v;render();$("list").scrollIntoView({behavior:"smooth"});return}
+  if(sb){const id=sb.dataset.id;s.fav.has(id)?s.fav.delete(id):s.fav.add(id);store.set(s.fk,[...s.fav]);render();return}
+  const tb=e.target.closest(".tab");if(tb){s.cat=tb.dataset.k;render();return}
+  const rb=e.target.closest(".rem button");if(rb){s.view=s.view===rb.dataset.v?"all":rb.dataset.v;render();$("list").scrollIntoView({behavior:"smooth"});return}
   if(e.target.closest("#fbtn"))$("more").classList.toggle("open");
 });
 ["q","gov","site","price","when","sort"].forEach(id=>$(id).addEventListener("input",render));
 setInterval(tick,1000);setInterval(render,60000);setInterval(load,15*60000);
 load();
-setTimeout(()=>store.set("lastVisit",Date.now()),5000);
 }
 </script>
 </body>
