@@ -1,5 +1,5 @@
 {
- "run": "2026-11-26T02:36:03.239435+04:00",
+ "run": "2026-11-26T09:08:50.826356+04:00",
  "ebid_links": 97,
  "ebid_items": 97,
  "mzadcom": {
@@ -71,11 +71,11 @@
     "items": 0
    },
    {
-    "url": "https://mzadcom.om/services/public/api/auctions_chart_data/main",
+    "url": "https://mzadcom.om/services/public/api/about_counts",
     "items": 0
    },
    {
-    "url": "https://mzadcom.om/services/public/api/about_counts",
+    "url": "https://mzadcom.om/services/public/api/auctions_chart_data/main",
     "items": 0
    },
    {
@@ -102,35 +102,35 @@
   "raw_cards": [
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٢:٤١:٠٩ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٩:١٣:٢٣ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٢:٤١:٠٩ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٩:١٣:٢٣ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4740",
-    "text": "القادمة\nNizwa\nيبدأ بعد\n13\nيوم\n08\nساعة\n18\nدقيقة\n53\nثانية\nMZAD-4740\nخردة متنوعة\nأصول أدوات الحفر السفلي\nمجموع المزادات\n1  \nمبلغ الضمان\n500.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n09/12/2026\nالأربعاء\n11:00 AM\nتاريخ الإنتهاء\n10/12/2026\nالخميس\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nNizwa\nيبدأ بعد\n13\nيوم\n01\nساعة\n46\nدقيقة\n39\nثانية\nMZAD-4740\nخردة متنوعة\nأصول أدوات الحفر السفلي\nمجموع المزادات\n1  \nمبلغ الضمان\n500.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n09/12/2026\nالأربعاء\n11:00 AM\nتاريخ الإنتهاء\n10/12/2026\nالخميس\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4738",
-    "text": "القادمة\nFahood\nيبدأ بعد\n11\nيوم\n08\nساعة\n18\nدقيقة\n53\nثانية\nMZAD-4738\nالمواد الفائضة\nمولدات الديزل\nمجموع المزادات\n1  \nمبلغ الضمان\n5000.00\nمبلغ البدء\n5,000\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n5000\nتاريخ البدء\n07/12/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n08/12/2026\nالثلاثاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nFahood\nيبدأ بعد\n11\nيوم\n01\nساعة\n46\nدقيقة\n39\nثانية\nMZAD-4738\nالمواد الفائضة\nمولدات الديزل\nمجموع المزادات\n1  \nمبلغ الضمان\n5000.00\nمبلغ البدء\n5,000\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n5000\nتاريخ البدء\n07/12/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n08/12/2026\nالثلاثاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4735",
-    "text": "القادمة\nmuscat\nيبدأ بعد\n05\nيوم\n08\nساعة\n18\nدقيقة\n53\nثانية\nMZAD-4735\nخردة متنوعة\nالمجموعة 1: مواد مستعملة المتحف الوطني\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسج"
+    "text": "القادمة\nmuscat\nيبدأ بعد\n05\nيوم\n01\nساعة\n46\nدقيقة\n39\nثانية\nMZAD-4735\nخردة متنوعة\nالمجموعة 1: مواد مستعملة المتحف الوطني\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسج"
    },
    {
     "href": "https://www.mzadcom.om/auction-details/4736",
-    "text": "القادمة\nmuscat\nيبدأ بعد\n05\nيوم\n08\nساعة\n18\nدقيقة\n53\nثانية\nMZAD-4736\nخردة متنوعة\nالمجموعة 2: إلكترونيات مستعملة\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:10 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+    "text": "القادمة\nmuscat\nيبدأ بعد\n05\nيوم\n01\nساعة\n46\nدقيقة\n39\nثانية\nMZAD-4736\nخردة متنوعة\nالمجموعة 2: إلكترونيات مستعملة\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:10 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
    },
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٢:٤١:٢٠ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٩:١٣:٣٤ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٢:٤١:٢٠ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٩:١٣:٣٤ ص\nتسجيل الدخول"
    },
    {
     "href": "http://dgitcom.com/",
@@ -146,11 +146,11 @@
    },
    {
     "href": "https://www.mzadcom.om/",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٢:٤١:٣٤ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٩:١٣:٤٨ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auc-calendar",
-    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٢:٤١:٣٤ ص\nتسجيل الدخول"
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٦-١١-٢٠٢٦ ٠٩:١٣:٤٨ ص\nتسجيل الدخول"
    },
    {
     "href": "https://www.mzadcom.om/auctions?cat=real_estate",
@@ -278,7 +278,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-23 15:31:51",
     "updated_at": "2026-11-23 15:31:51",
-    "server_time": "2026-11-26 02:40:57",
+    "server_time": "2026-11-26 09:13:10",
     "is_vat_included": "1",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -358,7 +358,7 @@
     "auction_liked": "False",
     "auction_wishlisted": "False",
     "calendar": "False",
-    "total_views": "18",
+    "total_views": "19",
     "latitude": "22.317",
     "longitude": "56.519",
     "contract_number": "None",
@@ -407,7 +407,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-23 10:44:08",
     "updated_at": "2026-11-23 10:44:08",
-    "server_time": "2026-11-26 02:40:57",
+    "server_time": "2026-11-26 09:13:10",
     "is_vat_included": "1",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -527,20 +527,20 @@
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/banners",
-    "items": 0
-   },
-   {
     "url": "https://rop.mzadcom.om/services/public/api/active_categories?active=1",
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/active_categories?limit=5",
+    "url": "https://rop.mzadcom.om/services/public/api/banners",
     "items": 0
    },
    {
     "url": "https://rop.mzadcom.om/services/public/api/all_auctions?type=active&limit=30&page=1&lang=ar",
     "items": 4
+   },
+   {
+    "url": "https://rop.mzadcom.om/services/public/api/active_categories?limit=5",
+    "items": 0
    },
    {
     "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
@@ -747,7 +747,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-24 08:47:19",
     "updated_at": "2026-11-24 08:47:19",
-    "server_time": "2026-11-26 02:41:45",
+    "server_time": "2026-11-26 09:13:59",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -874,7 +874,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-24 08:46:38",
     "updated_at": "2026-11-24 08:46:38",
-    "server_time": "2026-11-26 02:41:45",
+    "server_time": "2026-11-26 09:13:59",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -938,7 +938,7 @@
    },
    {
     "url": "https://safqaauctions.om/auctions",
-    "cards": 44
+    "cards": 43
    }
   ],
   "apis": [],
@@ -985,11 +985,11 @@
    },
    {
     "href": "https://safqaauctions.om/lot/lot_EpNNmHwUdHDTfizR",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n*•**\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•*••\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
    },
    {
     "href": "https://safqaauctions.om/auctions/evt_Dr85qnz1HVKPwpA7",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n*•**\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•*••\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
    }
   ],
   "json_full": [],
@@ -1021,7 +1021,6 @@
    "https://safqaauctions.om/lot/lot_LxGWHrgXYHK4mgtE",
    "https://safqaauctions.om/lot/lot_YQJmxa3NomN8GxCp",
    "https://safqaauctions.om/lot/lot_ajEtWYdKk3EJPhqN",
-   "https://safqaauctions.om/lot/lot_fN5aVWEzvhMANzdj",
    "https://safqaauctions.om/lot/lot_ugkyM3R8HQ3Ngsqg",
    "https://safqaauctions.om/marketplace",
    "https://safqaauctions.om/marketplace/how-it-works",
@@ -1205,7 +1204,7 @@
     "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/0cf41a0b-0282-45e6-88ed-91c9bc5e6d91', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/fe48af4c-6f8e-4a29-8054-ff25ff20aa37'}, 'id': '3f396078-4507-403e-9e0e-0c20ced6baab'}",
     "item_status": "open",
     "min_bid": "100.0",
-    "modified_date": "Thu, 26 Nov 2026 01:39:53 GMT",
+    "modified_date": "Thu, 26 Nov 2026 08:26:29 GMT",
     "owner_title": "{'ar': 'مزاد البركة المركبات ', 'en': 'Al Baraka Vehicles Auction'}",
     "start_date": "Tue, 01 Dec 2026 20:00:00 GMT",
     "title": "{'ar': 'الرقم 1 : ميتسوبيشي إل 200 بيك أب', 'en': 'NO1: Mitsubishi L200 Pick-up'}",
@@ -1220,7 +1219,7 @@
     "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/a39a7c5c-42e6-4898-885d-8c2b0abc158e', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/d030096f-8a87-491f-b659-7a3529c7c9d0'}, 'id': '6297eada-215f-41e6-85ab-30afa3b2da71'}",
     "item_status": "open",
     "min_bid": "100.0",
-    "modified_date": "Thu, 26 Nov 2026 01:39:53 GMT",
+    "modified_date": "Thu, 26 Nov 2026 08:26:49 GMT",
     "owner_title": "{'ar': 'مزاد البركة المركبات ', 'en': 'Al Baraka Vehicles Auction'}",
     "start_date": "Tue, 01 Dec 2026 20:00:00 GMT",
     "title": "{'ar': 'الرقم 2 : ميتسوبيشي إل 200 بيك أب', 'en': 'NO2: Mitsubishi L200 Pick-up'}",
@@ -1292,11 +1291,11 @@
     "items": 0
    },
    {
-    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/70220c8f-cbf8-4495-b34e-cb82cb6d3ffe/activity?widgetInfoTraceId=fdec228a-c8fa-41c7-8c9f-be2257a0f5b5",
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/faq/category?platform=web&locales=ar-OM%2Car-OM&since=&lastLocaleId=&widgetUuid=default",
     "items": 0
    },
    {
-    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/faq/category?platform=web&locales=ar-OM%2Car-OM&since=&lastLocaleId=&widgetUuid=default",
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/c808ee8f-6bca-4b80-883c-f501d057c144/activity?widgetInfoTraceId=7c171c29-6ecc-4661-999c-818083b9ee20",
     "items": 0
    },
    {
@@ -1475,22 +1474,49 @@
   "pages": [
    {
     "url": "https://www.muscatauction.com/",
-    "cards": 1
+    "cards": 7
    }
   ],
   "apis": [],
   "raw_cards": [
    {
-    "href": "https://support.google.com/websearch/answer/86640",
-    "text": "تظهر هذه الصفحة عند اكتشاف Google تلقائيًا لطلبات واردة من شبكة الكمبيوتر الخاصة بك والتي يتضح أنها تنتهك بنود الخدمة. وينتهي الحظر بعد توقف هذه الطلبات مباشرة. في أثناء ذلك، يتيح لك حل اختبار CAPTCHA أعلاه متابعة استخدام خدماتنا.ربما تم إرسال حركة البيانات هذه من خلال برنامج ضار أو مكون إضافي أو نص برمجي يرسل طلبات تلقائية. إذا كنت تشارك اتصال الش"
+    "href": "https://www.blogger.com/",
+    "text": "لم يتم العثور على المدونة الإلكترونية\n\nلم يتم العثور على المدونة التي كنت تبحث عنها. فإذا كنت مالكًا لهذه المدونة، فيرجى تسجيل الدخول.\n\n‏انتقال إلى Blogger\nتعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج\n© 1999 – 2026 Google\nبنود الخدمة الخصوصية سياسة المحتوى"
+   },
+   {
+    "href": "https://www.blogger.com/go/helpcenter",
+    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
+   },
+   {
+    "href": "https://www.blogger.com/go/discuss",
+    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
+   },
+   {
+    "href": "https://www.blogger.com/go/tutorials",
+    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
+   },
+   {
+    "href": "https://www.blogger.com/go/buzz",
+    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
+   },
+   {
+    "href": "https://www.blogger.com/go/devapi",
+    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
    }
   ],
   "json_full": [],
   "items": 0,
   "anchors_sample": [
-   "https://support.google.com/websearch/answer/86640",
-   "https://www.google.com/policies/terms/",
-   "https://www.google.com/sorry/index?continue=https://www.muscatauction.com/&q=EgSs1M82GNHLndgGIi1re8RYwubtakokJBUHkDZ5CH21T8iI6pouMsG1R_aqS3zIkLmYJnEu5YNTBC0yAnJSWgFDYL6s5OTamcG2Eg#"
+   "https://www.blogger.com/",
+   "https://www.blogger.com/go/buzz",
+   "https://www.blogger.com/go/contentpolicy",
+   "https://www.blogger.com/go/devapi",
+   "https://www.blogger.com/go/devforum",
+   "https://www.blogger.com/go/discuss",
+   "https://www.blogger.com/go/helpcenter",
+   "https://www.blogger.com/go/privacy",
+   "https://www.blogger.com/go/terms",
+   "https://www.blogger.com/go/tutorials"
   ],
   "json_items": 0
  }
