@@ -1,5 +1,5 @@
 {
- "run": "2026-11-26T19:23:08.371953+04:00",
+ "run": "2026-11-27T04:38:14.852790+04:00",
  "ebid_links": 0,
  "ebid_items": 0,
  "mzadcom": {
@@ -50,7 +50,7 @@
    },
    {
     "url": "https://rop.mzadcom.om/",
-    "cards": 29
+    "cards": 32
    }
   ],
   "apis": [
@@ -59,15 +59,11 @@
     "items": 0
    },
    {
+    "url": "https://rop.mzadcom.om/services/public/api/banners",
+    "items": 0
+   },
+   {
     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
-    "items": 0
-   },
-   {
-    "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i15!2i21699!3i14174!1m4!1m3!1i15!2i21699!3i14175!1m4!1m3!1i15!2i21700!3i14174!1m4!1m3!1i15!2i21700!3i14175!1m4!1m3!1i15!2i21701!3i14174!1m4!1m3!1i15!2i21701",
-    "items": 0
-   },
-   {
-    "url": "https://rop.mzadcom.om/services/public/api/active_organizations?",
     "items": 0
    },
    {
@@ -79,7 +75,11 @@
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/banners",
+    "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i15!2i21699!3i14174!1m4!1m3!1i15!2i21699!3i14175!1m4!1m3!1i15!2i21700!3i14174!1m4!1m3!1i15!2i21700!3i14175!1m4!1m3!1i15!2i21701!3i14174!1m4!1m3!1i15!2i21701",
+    "items": 0
+   },
+   {
+    "url": "https://rop.mzadcom.om/services/public/api/active_organizations?",
     "items": 0
    },
    {
@@ -95,7 +95,7 @@
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/get_departments?undefined",
+    "url": "https://rop.mzadcom.om/services/public/api/auctions_chart_data/main",
     "items": 0
    },
    {
@@ -103,15 +103,15 @@
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/auctions_chart_data/main",
-    "items": 0
-   },
-   {
-    "url": "https://rop.mzadcom.om/services/public/api/end_soon?limit=10&page=1",
+    "url": "https://rop.mzadcom.om/services/public/api/get_departments?undefined",
     "items": 0
    },
    {
     "url": "https://rop.mzadcom.om/services/public/api/active/auctions?limit=10",
+    "items": 0
+   },
+   {
+    "url": "https://rop.mzadcom.om/services/public/api/end_soon?limit=10&page=1",
     "items": 0
    },
    {
@@ -153,6 +153,18 @@
     "text": "الطابق الأول، شارع 23 يوليو، الغبرة الجنوبية، ص.ب. مسقط، سلطنة عمان، مسقط 3"
    },
    {
+    "href": "https://rop.mzadcom.om/",
+    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n4\nالمزادات القادمة\n0\nالمزادات السابقة\n2160\nالمزادات\n2164\nمباشر\n0\nPrevious\nنشط\nمجموعة قطع غيار مستهلكة - سمائل\nرقم المزاد : MZAD5330\n200 ر.ع\n قائمة المزادات\n \nالتسجي"
+   },
+   {
+    "href": "https://rop.mzadcom.om/auctions",
+    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n4\nالمزادات القادمة\n0\nالمزادات السابقة\n2160\nالمزادات\n2164\nمباشر\n0\nPrevious\nنشط\nمجموعة قطع غيار مستهلكة - سمائل\nرقم المزاد : MZAD5330\n200 ر.ع\n قائمة المزادات\n \nالتسجي"
+   },
+   {
+    "href": "https://rop.mzadcom.om/comp-registration",
+    "text": "الصفحة الرئيسية\nالمزادات\nالتواصل معنا\nتسجيل الدخول\nالتسجيل\nPrevious\nNext\nالفئات \nقسم \nالموقع \nترتيب \n0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد\nالمزادات\nمزادات نشطة\n4\nالمزادات القادمة\n0\nالمزادات السابقة\n2160\nالمزادات\n2164\nمباشر\n0\nPrevious\nنشط\nمجموعة قطع غيار مستهلكة - سمائل\nرقم المزاد : MZAD5330\n200 ر.ع\n قائمة المزادات\n \nالتسجي"
+   },
+   {
     "href": "https://rop.mzadcom.om/auctions?sec=main&category=1",
     "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
    },
@@ -162,18 +174,6 @@
    },
    {
     "href": "https://rop.mzadcom.om/auctions?sec=main&category=3",
-    "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
-   },
-   {
-    "href": "https://rop.mzadcom.om/auctions?sec=main&category=4",
-    "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
-   },
-   {
-    "href": "https://rop.mzadcom.om/auctions?sec=main&category=5",
-    "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
-   },
-   {
-    "href": "https://rop.mzadcom.om/category-list",
     "text": "0\nالمعثورات\n4\nخردة متنوعة\n0\nالحيوانات\n0\nمركبات\n0\nزيت\nعرض المزيد"
    }
   ],
@@ -291,7 +291,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-24 08:47:19",
     "updated_at": "2026-11-24 08:47:19",
-    "server_time": "2026-11-26 19:23:44",
+    "server_time": "2026-11-27 04:38:50",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -418,7 +418,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-24 08:46:38",
     "updated_at": "2026-11-24 08:46:38",
-    "server_time": "2026-11-26 19:23:44",
+    "server_time": "2026-11-27 04:38:50",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -529,11 +529,11 @@
    },
    {
     "href": "https://safqaauctions.om/lot/lot_EpNNmHwUdHDTfizR",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n*•**\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n••**\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
    },
    {
     "href": "https://safqaauctions.om/auctions/evt_Dr85qnz1HVKPwpA7",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n*•**\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n••**\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
    }
   ],
   "json_full": [],
@@ -748,7 +748,7 @@
     "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/0cf41a0b-0282-45e6-88ed-91c9bc5e6d91', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/fe48af4c-6f8e-4a29-8054-ff25ff20aa37'}, 'id': '3f396078-4507-403e-9e0e-0c20ced6baab'}",
     "item_status": "open",
     "min_bid": "100.0",
-    "modified_date": "Thu, 26 Nov 2026 19:12:49 GMT",
+    "modified_date": "Fri, 27 Nov 2026 04:08:07 GMT",
     "owner_title": "{'ar': 'مزاد البركة المركبات ', 'en': 'Al Baraka Vehicles Auction'}",
     "start_date": "Tue, 01 Dec 2026 20:00:00 GMT",
     "title": "{'ar': 'الرقم 1 : ميتسوبيشي إل 200 بيك أب', 'en': 'NO1: Mitsubishi L200 Pick-up'}",
@@ -763,7 +763,7 @@
     "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/a39a7c5c-42e6-4898-885d-8c2b0abc158e', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/d030096f-8a87-491f-b659-7a3529c7c9d0'}, 'id': '6297eada-215f-41e6-85ab-30afa3b2da71'}",
     "item_status": "open",
     "min_bid": "100.0",
-    "modified_date": "Thu, 26 Nov 2026 19:12:25 GMT",
+    "modified_date": "Fri, 27 Nov 2026 04:08:07 GMT",
     "owner_title": "{'ar': 'مزاد البركة المركبات ', 'en': 'Al Baraka Vehicles Auction'}",
     "start_date": "Tue, 01 Dec 2026 20:00:00 GMT",
     "title": "{'ar': 'الرقم 2 : ميتسوبيشي إل 200 بيك أب', 'en': 'NO2: Mitsubishi L200 Pick-up'}",
@@ -835,7 +835,7 @@
     "items": 0
    },
    {
-    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/5aab17c1-9f4a-490e-b1f1-d9f8f8c5464d/activity?widgetInfoTraceId=2f960ca8-bbe0-4eb6-a565-a84796adf449",
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/3bdeaf90-17e5-48bd-a76b-391fd3cd4e29/activity?widgetInfoTraceId=853d01d8-3db6-4153-bd83-d64f16a3a972",
     "items": 0
    },
    {
@@ -1033,7 +1033,7 @@
   "anchors_sample": [
    "https://support.google.com/websearch/answer/86640",
    "https://www.google.com/policies/terms/",
-   "https://www.google.com/sorry/index?continue=https://www.muscatauction.com/&q=EgQDKp2MGKyhodgGIi0DlyeGnw_0CgOpEbaL94F4wpKoFehrUB1r25yGnJmbo6qABL5zOglCLCyCNiUyAnJSWgFDYJOo75-njImAIQ#"
+   "https://www.google.com/sorry/index?continue=https://www.muscatauction.com/&q=EgSsqw8IGMOlo9gGIi1YRKSX7Y6an8QLMTSxdMUQgJMPnTpJpmEuUqPocTRDuzJ_zHF6IKTsNbznh8wyAnJSWgFDYJOxjYXf5o2sjQE#"
   ],
   "json_items": 0
  }
