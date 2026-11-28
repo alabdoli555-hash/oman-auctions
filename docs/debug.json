@@ -1,30 +1,431 @@
 {
- "run": "2026-11-28T06:44:26.898778+04:00",
- "ebid_links": 0,
- "ebid_items": 0,
+ "run": "2026-11-28T15:53:18.996950+04:00",
+ "ebid_links": 97,
+ "ebid_items": 97,
  "mzadcom": {
   "pages": [
    {
     "url": "https://www.mzadcom.om/auctions?sec=main&type=active",
-    "cards": 0
+    "cards": 14
    },
    {
     "url": "https://www.mzadcom.om/auctions?sec=main&type=upcoming",
-    "error": "Page.goto: net::ERR_ABORTED at https://www.mzadcom.om/auctions?sec=main&type=upcoming\nCall log:\n  - navigating to \"https://www.mzadcom.om/auctions?sec=main&type=upcoming\", waiting until \"domcontentloa"
+    "cards": 5
    },
    {
     "url": "https://www.mzadcom.om/?type=auctions",
-    "cards": 0
+    "cards": 39
    }
   ],
-  "apis": [],
-  "raw_cards": [],
-  "json_full": [],
-  "items": 0,
+  "apis": [
+   {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/active_organizations?is_active=1",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/active_categories?active=1",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/all_auctions?limit=9&page=1&section=main&type=active&lang=ar&sort=newest&grouped=1",
+    "items": 9
+   },
+   {
+    "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "items": 0
+   },
+   {
+    "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i15!2i21699!3i14174!1m4!1m3!1i15!2i21699!3i14175!1m4!1m3!1i15!2i21700!3i14174!1m4!1m3!1i15!2i21700!3i14175!1m4!1m3!1i15!2i21701!3i14174!1m4!1m3!1i15!2i21701",
+    "items": 0
+   },
+   {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/all_auctions?limit=9&page=1&section=main&type=upcoming&lang=ar&sort=newest&grouped=1",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/active_categories?active=1",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/active_organizations?",
+    "items": 0
+   },
+   {
+    "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "items": 0
+   },
+   {
+    "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i15!2i21699!3i14174!1m4!1m3!1i15!2i21699!3i14175!1m4!1m3!1i15!2i21700!3i14174!1m4!1m3!1i15!2i21700!3i14175!1m4!1m3!1i15!2i21701!3i14174!1m4!1m3!1i15!2i21701",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/today/auctions?limit=100",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/about_counts",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/auctions_chart_data/main",
+    "items": 0
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/active/auctions?limit=100",
+    "items": 3
+   },
+   {
+    "url": "https://mzadcom.om/services/public/api/previous/auctions?limit=100",
+    "items": 5
+   },
+   {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "items": 0
+   },
+   {
+    "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+    "items": 0
+   },
+   {
+    "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i15!2i21699!3i14174!1m4!1m3!1i15!2i21699!3i14175!1m4!1m3!1i15!2i21700!3i14174!1m4!1m3!1i15!2i21700!3i14175!1m4!1m3!1i15!2i21701!3i14174!1m4!1m3!1i15!2i21701",
+    "items": 0
+   }
+  ],
+  "raw_cards": [
+   {
+    "href": "https://www.mzadcom.om/",
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٨-١١-٢٠٢٦ ٠٣:٥٩:٠١ م\nتسجيل الدخول"
+   },
+   {
+    "href": "https://www.mzadcom.om/auc-calendar",
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٨-١١-٢٠٢٦ ٠٣:٥٩:٠١ م\nتسجيل الدخول"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4740",
+    "text": "القادمة\nNizwa\nيبدأ بعد\n10\nيوم\n19\nساعة\n01\nدقيقة\n01\nثانية\nMZAD-4740\nخردة متنوعة\nأصول أدوات الحفر السفلي\nمجموع المزادات\n1  \nمبلغ الضمان\n500.00\nمبلغ البدء\n500\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n500\nتاريخ البدء\n09/12/2026\nالأربعاء\n11:00 AM\nتاريخ الإنتهاء\n10/12/2026\nالخميس\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4738",
+    "text": "القادمة\nFahood\nيبدأ بعد\n08\nيوم\n19\nساعة\n01\nدقيقة\n01\nثانية\nMZAD-4738\nالمواد الفائضة\nمولدات الديزل\nمجموع المزادات\n1  \nمبلغ الضمان\n5000.00\nمبلغ البدء\n5,000\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n5000\nتاريخ البدء\n07/12/2026\nالأثنين\n11:00 AM\nتاريخ الإنتهاء\n08/12/2026\nالثلاثاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4735",
+    "text": "القادمة\nmuscat\nيبدأ بعد\n02\nيوم\n19\nساعة\n01\nدقيقة\n01\nثانية\nMZAD-4735\nخردة متنوعة\nالمجموعة 1: مواد مستعملة المتحف الوطني\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:00 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسج"
+   },
+   {
+    "href": "https://www.mzadcom.om/auction-details/4736",
+    "text": "القادمة\nmuscat\nيبدأ بعد\n02\nيوم\n19\nساعة\n01\nدقيقة\n01\nثانية\nMZAD-4736\nخردة متنوعة\nالمجموعة 2: إلكترونيات مستعملة\nمجموع المزادات\n1  \nمبلغ الضمان\n200.00\nمبلغ البدء\n200\nضريبة القيمة المضافة\n5 %\nالمبلغ الحالي\n200\nتاريخ البدء\n01/12/2026\nالثلاثاء\n11:00 AM\nتاريخ الإنتهاء\n02/12/2026\nالأربعاء\n11:10 AM\nالموافقة النهائية خاضعة للعميل\nإظهار التفاصيل\nالتسجيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/",
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٨-١١-٢٠٢٦ ٠٣:٥٩:١٣ م\nتسجيل الدخول"
+   },
+   {
+    "href": "https://www.mzadcom.om/auc-calendar",
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٨-١١-٢٠٢٦ ٠٣:٥٩:١٣ م\nتسجيل الدخول"
+   },
+   {
+    "href": "http://dgitcom.com/",
+    "text": "© 2026 مزادكم. جميع الحقوق محفوظة. مُشغّل بواسطة digitcom\n\nسياسة الخصوصية\n|\nشروط الخدمة"
+   },
+   {
+    "href": "",
+    "text": "الطابق الأول، شارع 23 يوليو، الغبرة الجنوبية، ص.ب. مسقط، سلطنة عمان، مسقط 3"
+   },
+   {
+    "href": "",
+    "text": "المناقصات والعقود (+968 92 788 822)"
+   },
+   {
+    "href": "https://www.mzadcom.om/",
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٨-١١-٢٠٢٦ ٠٣:٥٩:٢٥ م\nتسجيل الدخول"
+   },
+   {
+    "href": "https://www.mzadcom.om/auc-calendar",
+    "text": "الصفحة الرئيسية\nمن نحن\nجدول المزادات\nالتواصل معنا\n٢٨-١١-٢٠٢٦ ٠٣:٥٩:٢٥ م\nتسجيل الدخول"
+   },
+   {
+    "href": "https://www.mzadcom.om/auctions?cat=real_estate",
+    "text": "العقار\n\nتوفر المزادات العقارية طريقة شفافة وفعالة لشراء وبيع العقارات، مما يتيح تقديم عطاءات تنافسية وقيمة سوقية عادلة في عملية منظمة ومحددة زمنياً\n\nمزيد من التفاصيل"
+   },
+   {
+    "href": "https://www.mzadcom.om/sellers",
+    "text": "الترتيب حسب\nالبائعين\nكل\n5\nالمواد الفائضة\n2\nخردة متنوعة\n2\nمركبات\n1"
+   }
+  ],
+  "json_full": [
+   {
+    "client_check": "None",
+    "can_show_amts": "None",
+    "id": "4740",
+    "auction_number": "MZAD4740",
+    "category": "6",
+    "categoryDetails": "{'id': 6, 'category_name': 'Mixed Scrap', 'category_name_ar': 'خردة متنوعة', 'description': 'Mixed Scrap', 'description_ar': 'خردة متنوعة', 'file_category_image': 'mixed_scrap.png', 'icon': None, 'is_multiple': None, 'is_number': 0, 'is_vehicle': None, 'created_at': '2022-08-03T06:50:19.000000Z', 'u",
+    "organization": "159",
+    "organizationDetails": "{'id': 159, 'default_mzadcom_bank_account_id': 1, 'organization_name': 'Gulf energy', 'organization_name_ar': 'Gulf energy', 'file_organization_image': 'gulf_energy.jpg', 'description': 'Mixed Material', 'description_ar': 'Mixed Material', 'terms': None, 'is_client': 0, 'client_type': None, 'contact",
+    "has_auto_bidding": "0",
+    "order": "0",
+    "title": "Down Hole Tool Assets - GE",
+    "title_ar": "أصول أدوات الحفر السفلي",
+    "description": "Down Hole Tool Assets - GE",
+    "description_ar": "أصول أدوات الحفر السفلي",
+    "details": "None",
+    "downloads": "None",
+    "terms": "None",
+    "terms_arabic": "None",
+    "file_terms": "False",
+    "file_payment_terms": "False",
+    "enquiry": "[{'label': 'Operation', 'value': '92970111'}]",
+    "package": "None",
+    "group": "769",
+    "group_info": "{'id': 769, 'organization': 159, 'collection_type': 1, 'has_auto_bidding': 0, 'project_code': 'MZD/GE/P0190-Q4/2026', 'group_name': 'Down hole tool asset', 'group_name_ar': 'أصول أدوات الحفر السفلي', 'sector_id': 1, 'year_quarter_id': 28, 'actual_start_date': '2026-11-11', 'expected_end_date': '2026",
+    "phone_number": "None",
+    "mask": "None",
+    "class": "D",
+    "start_amount": "500.0",
+    "visit_amount": "None",
+    "is_visit_active": "True",
+    "current_amount": "500.0",
+    "bid_increment": "100.0",
+    "increment_numbers": "['100', '150', '200', '250']",
+    "bid_count": "0",
+    "start_date": "2026-12-09 11:00:00",
+    "start_date_ar": "{'day': 'Wednesday', 'date': '09/12/2026', 'time': '11:00:00 AM'}",
+    "end_date": "2026-12-10 11:00:00",
+    "end_date_ar": "{'day': 'Thursday', 'date': '10/12/2026', 'time': '11:00:00 AM'}",
+    "start_date_formatted": "09-12-2026 11:00:00",
+    "end_date_formatted": "10-12-2026 11:00:00",
+    "reg_start_date": "2026-11-02 00:00:00",
+    "reg_end_date": "2026-12-10 11:00:00",
+    "reg_start_date_formatted": "02-11-2026 00:00:00",
+    "reg_start_date_ar": "{'day': 'Monday', 'date': '02/11/2026', 'time': '12:00:00 AM'}",
+    "reg_end_date_formatted": "10-12-2026 11:00:00",
+    "reg_end_date_ar": "{'day': 'Thursday', 'date': '10/12/2026', 'time': '11:00:00 AM'}",
+    "is_grouped": "0",
+    "is_grouped_enroll": "0",
+    "enroll_close_date": "2026-12-06T07:00:00.000000Z",
+    "is_featured": "1",
+    "is_direct_sale": "0",
+    "is_zakath": "0",
+    "is_vehicle": "0",
+    "vehicle_info": "None",
+    "vat": "5",
+    "status": "A",
+    "status_dis": "A",
+    "status_label": "{'status': 'A', 'en': 'Active', 'ar': 'نشط'}",
+    "images": "[{'id': 25737, 'auction_id': 4740, 'image': 'https://mzadcom.om/services/public/uploads/auctions/original/AUC-MZ_P0088_2026-00001_1_6b04234be3c6c.png', 'cropped_image': False, 'is_cover': 1, 'created_at': '2026-11-23 15:31:51', 'updated_at': '2026-11-23 15:31:51'}, {'id': 25738, 'auction_id': 4740, ",
+    "video_file": "None",
+    "video": "False",
+    "total_likes": "0",
+    "total_wishlist": "0",
+    "auction_liked": "False",
+    "auction_wishlisted": "False",
+    "calendar": "False",
+    "total_views": "23",
+    "latitude": "22.849",
+    "longitude": "57.484",
+    "contract_number": "None",
+    "payment_type": "[\"1\",\"2\",\"3\"]",
+    "payment_amount": "500.00",
+    "auto_approval": "1",
+    "is_a_group": "False",
+    "group_image": "https://mzadcom.om/services/public/uploads/placeholder.jpg",
+    "group_name": "Down hole tool asset",
+    "group_name_ar": "أصول أدوات الحفر السفلي",
+    "auctions_count": "1",
+    "registartion_status": "open",
+    "my_rank": "None",
+    "days_remaining": "10",
+    "winner": "[]",
+    "winner_file": "False",
+    "location": "Nizwa",
+    "location_ar": "نزوى",
+    "is_enrolled": "False",
+    "is_enroll_requested": "False",
+    "is_visit_initiated": "True",
+    "visit_status": "",
+    "first_auction_id": "None",
+    "guarantee_amount": "500.00",
+    "invoice": "None",
+    "attributes": "[]",
+    "invoice_date": "None",
+    "client_name": "None",
+    "bank_name": "None",
+    "bank_account": "None",
+    "approval_remarks": "None",
+    "inv_amount_words": "None",
+    "inv_title": "None",
+    "inv_remarks": "None",
+    "file_additional_information": "False",
+    "client_paid_amount": "0",
+    "approve_status": "NU",
+    "finance_approved": "0",
+    "rejected_date": "None",
+    "approved_by": "None",
+    "approved_date": "None",
+    "target_amount": "0",
+    "auto_bid_increment": "0",
+    "enabled_auto_bidding": "False",
+    "file_approved_doc": "False",
+    "file_reauction_doc": "False",
+    "created_at": "2026-11-23 15:31:51",
+    "updated_at": "2026-11-23 15:31:51",
+    "server_time": "2026-11-28 15:58:49",
+    "is_vat_included": "1",
+    "is_service_charge_included": "0",
+    "is_service_charge_vat_included": "0",
+    "withdraw_status": "None",
+    "withdrawn_amount_client": "0",
+    "participants": "[]",
+    "client_payments": "None",
+    "has_client_payment_completed": "None",
+    "has_wallet_deduction_completed": "None",
+    "default_mzadcom_bank_account": "{'id': 1, 'organization_id': None, 'account_type': 'mzadcom', 'bank_name': 'Bank Muscat', 'branch_name': 'Ghala', 'account_name': 'Mazadcom Smart Auction Solutions LLC', 'account_number': '0440061839220015', 'iban': 'OM360270440061839220015', 'swift_code': 'BMUSOMRX', 'currency': 'OMR', 'is_default'",
+    "payment_accounts": "{'default_mzadcom': {'id': 1, 'bank_name': 'Bank Muscat', 'account_name': 'Mazadcom Smart Auction Solutions LLC', 'account_number': '0440061839220015', 'swift_code': 'BMUSOMRX', 'iban': 'OM360270440061839220015', 'currency': 'OMR', 'branch_name': 'Ghala', 'is_default': True}, 'auction_enrollment': {"
+   },
+   {
+    "client_check": "None",
+    "can_show_amts": "None",
+    "id": "4738",
+    "auction_number": "MZAD4738",
+    "category": "5",
+    "categoryDetails": "{'id': 5, 'category_name': 'Surplus', 'category_name_ar': 'المواد الفائضة', 'description': 'null', 'description_ar': 'null', 'file_category_image': '1659523655_surplus_materials.png', 'icon': None, 'is_multiple': None, 'is_number': 0, 'is_vehicle': None, 'created_at': '2022-04-27T15:07:14.000000Z', ",
+    "organization": "159",
+    "organizationDetails": "{'id': 159, 'default_mzadcom_bank_account_id': 1, 'organization_name': 'Gulf energy', 'organization_name_ar': 'Gulf energy', 'file_organization_image': 'gulf_energy.jpg', 'description': 'Mixed Material', 'description_ar': 'Mixed Material', 'terms': None, 'is_client': 0, 'client_type': None, 'contact",
+    "has_auto_bidding": "0",
+    "order": "0",
+    "title": "Diesel Generators",
+    "title_ar": "مولدات الديزل",
+    "description": "-",
+    "description_ar": "-",
+    "details": "None",
+    "downloads": "None",
+    "terms": "-",
+    "terms_arabic": "-",
+    "file_terms": "https://mzadcom.om/services/public/uploads/auctions/terms/terms_4738_1795503157.pdf",
+    "file_payment_terms": "https://mzadcom.om/services/public/uploads/auctions/terms/pay_terms_4738_1795503164.pdf",
+    "enquiry": "None",
+    "package": "None",
+    "group": "767",
+    "group_info": "{'id': 767, 'organization': 159, 'collection_type': 1, 'has_auto_bidding': 0, 'project_code': 'MZ/GE/P0136-Q4/2026', 'group_name': 'MZ/GE/P0136-Q4/2026', 'group_name_ar': 'مولدات الديزل', 'sector_id': 1, 'year_quarter_id': None, 'actual_start_date': '2026-12-07', 'expected_end_date': '2026-12-08', '",
+    "phone_number": "None",
+    "mask": "None",
+    "class": "D",
+    "start_amount": "5000.0",
+    "visit_amount": "None",
+    "is_visit_active": "True",
+    "current_amount": "5000.0",
+    "bid_increment": "500.0",
+    "increment_numbers": "['500', '1000', '1500', '2000', '2500']",
+    "bid_count": "0",
+    "start_date": "2026-12-07 11:00:00",
+    "start_date_ar": "{'day': 'Monday', 'date': '07/12/2026', 'time': '11:00:00 AM'}",
+    "end_date": "2026-12-08 11:00:00",
+    "end_date_ar": "{'day': 'Tuesday', 'date': '08/12/2026', 'time': '11:00:00 AM'}",
+    "start_date_formatted": "07-12-2026 11:00:00",
+    "end_date_formatted": "08-12-2026 11:00:00",
+    "reg_start_date": "2026-11-02 00:00:00",
+    "reg_end_date": "2026-12-08 10:00:00",
+    "reg_start_date_formatted": "02-11-2026 00:00:00",
+    "reg_start_date_ar": "{'day': 'Monday', 'date': '02/11/2026', 'time': '12:00:00 AM'}",
+    "reg_end_date_formatted": "08-12-2026 10:00:00",
+    "reg_end_date_ar": "{'day': 'Tuesday', 'date': '08/12/2026', 'time': '10:00:00 AM'}",
+    "is_grouped": "0",
+    "is_grouped_enroll": "0",
+    "enroll_close_date": "2026-12-04T07:00:00.000000Z",
+    "is_featured": "1",
+    "is_direct_sale": "0",
+    "is_zakath": "0",
+    "is_vehicle": "0",
+    "vehicle_info": "None",
+    "vat": "5",
+    "status": "A",
+    "status_dis": "A",
+    "status_label": "{'status': 'A', 'en': 'Active', 'ar': 'نشط'}",
+    "images": "[{'id': 25710, 'auction_id': 4738, 'image': 'https://mzadcom.om/services/public/uploads/auctions/original/AUC-MZ_P0136_2026-00001_1_6b03df5c9e9b6.png', 'cropped_image': False, 'is_cover': 1, 'created_at': '2026-11-23 10:44:08', 'updated_at': '2026-11-23 10:44:08'}, {'id': 25711, 'auction_id': 4738, ",
+    "video_file": "None",
+    "video": "False",
+    "total_likes": "0",
+    "total_wishlist": "0",
+    "auction_liked": "False",
+    "auction_wishlisted": "False",
+    "calendar": "False",
+    "total_views": "24",
+    "latitude": "22.317",
+    "longitude": "56.519",
+    "contract_number": "None",
+    "payment_type": "Both",
+    "payment_amount": "5000",
+    "auto_approval": "1",
+    "is_a_group": "False",
+    "group_image": "https://mzadcom.om/services/public/uploads/placeholder.jpg",
+    "group_name": "MZ/GE/P0136-Q4/2026",
+    "group_name_ar": "مولدات الديزل",
+    "auctions_count": "1",
+    "registartion_status": "open",
+    "my_rank": "None",
+    "days_remaining": "8",
+    "winner": "[]",
+    "winner_file": "False",
+    "location": "Fahood",
+    "location_ar": "فهود",
+    "is_enrolled": "False",
+    "is_enroll_requested": "False",
+    "is_visit_initiated": "True",
+    "visit_status": "",
+    "first_auction_id": "None",
+    "guarantee_amount": "5000.00",
+    "invoice": "None",
+    "attributes": "[]",
+    "invoice_date": "None",
+    "client_name": "None",
+    "bank_name": "None",
+    "bank_account": "None",
+    "approval_remarks": "None",
+    "inv_amount_words": "None",
+    "inv_title": "None",
+    "inv_remarks": "None",
+    "file_additional_information": "False",
+    "client_paid_amount": "0",
+    "approve_status": "NU",
+    "finance_approved": "0",
+    "rejected_date": "None",
+    "approved_by": "None",
+    "approved_date": "None",
+    "target_amount": "0",
+    "auto_bid_increment": "0",
+    "enabled_auto_bidding": "False",
+    "file_approved_doc": "False",
+    "file_reauction_doc": "False",
+    "created_at": "2026-11-23 10:44:08",
+    "updated_at": "2026-11-23 10:44:08",
+    "server_time": "2026-11-28 15:58:49",
+    "is_vat_included": "1",
+    "is_service_charge_included": "0",
+    "is_service_charge_vat_included": "0",
+    "withdraw_status": "None",
+    "withdrawn_amount_client": "0",
+    "participants": "[]",
+    "client_payments": "None",
+    "has_client_payment_completed": "None",
+    "has_wallet_deduction_completed": "None",
+    "default_mzadcom_bank_account": "{'id': 1, 'organization_id': None, 'account_type': 'mzadcom', 'bank_name': 'Bank Muscat', 'branch_name': 'Ghala', 'account_name': 'Mazadcom Smart Auction Solutions LLC', 'account_number': '0440061839220015', 'iban': 'OM360270440061839220015', 'swift_code': 'BMUSOMRX', 'currency': 'OMR', 'is_default'",
+    "payment_accounts": "{'default_mzadcom': {'id': 1, 'bank_name': 'Bank Muscat', 'account_name': 'Mazadcom Smart Auction Solutions LLC', 'account_number': '0440061839220015', 'swift_code': 'BMUSOMRX', 'iban': 'OM360270440061839220015', 'currency': 'OMR', 'branch_name': 'Ghala', 'is_default': True}, 'auction_enrollment': {"
+   }
+  ],
+  "items": 17,
   "direct_api": [
    {
     "url": "https://mzadcom.om/services/public/api/all_auctions?limit=100&page=1&section=main&type=active&lang=ar&sort=newest&groupe",
-    "items": 0
+    "items": 12
    },
    {
     "url": "https://mzadcom.om/services/public/api/all_auctions?limit=100&page=1&section=main&type=upcoming&lang=ar&sort=newest&grou",
@@ -32,15 +433,70 @@
    },
    {
     "url": "https://mzadcom.om/services/public/api/all_auctions?limit=100&page=1&section=main&type=active&lang=ar&sort=newest&groupe",
-    "items": 0
+    "items": 12
    },
    {
     "url": "https://mzadcom.om/services/public/api/all_auctions?limit=100&page=1&section=main&type=upcoming&lang=ar&sort=newest&grou",
     "items": 0
    }
   ],
-  "anchors_sample": [],
-  "json_items": 0
+  "anchors_sample": [
+   "http://dgitcom.com/",
+   "https://apps.apple.com/qa/app/mzadcom/id6754008508",
+   "https://mzadcom.sa/",
+   "https://play.google.com/store/apps/details?id=com.mzadcom.mzadcom",
+   "https://www.facebook.com/share/16gjCgFWas/?mibextid=wwXIfr",
+   "https://www.instagram.com/mzadcomom",
+   "https://www.mzadcom.om/",
+   "https://www.mzadcom.om/about",
+   "https://www.mzadcom.om/auc-calendar",
+   "https://www.mzadcom.om/auction-details/4698",
+   "https://www.mzadcom.om/auction-details/4725",
+   "https://www.mzadcom.om/auction-details/4726",
+   "https://www.mzadcom.om/auction-details/4727",
+   "https://www.mzadcom.om/auction-details/4728",
+   "https://www.mzadcom.om/auction-details/4729",
+   "https://www.mzadcom.om/auction-details/4730",
+   "https://www.mzadcom.om/auction-details/4731",
+   "https://www.mzadcom.om/auction-details/4734",
+   "https://www.mzadcom.om/auction-details/4735",
+   "https://www.mzadcom.om/auction-details/4736",
+   "https://www.mzadcom.om/auction-details/4737",
+   "https://www.mzadcom.om/auction-details/4738",
+   "https://www.mzadcom.om/auction-details/4739",
+   "https://www.mzadcom.om/auction-details/4740",
+   "https://www.mzadcom.om/auctions?cat=real_estate",
+   "https://www.mzadcom.om/auctions?sec=main&type=previous",
+   "https://www.mzadcom.om/auctions?type=active&limit=9",
+   "https://www.mzadcom.om/contact",
+   "https://www.mzadcom.om/delivery-policy",
+   "https://www.mzadcom.om/faqs",
+   "https://www.mzadcom.om/grouped-auctions/723?type=",
+   "https://www.mzadcom.om/grouped-auctions/724?type=",
+   "https://www.mzadcom.om/grouped-auctions/742?type=",
+   "https://www.mzadcom.om/grouped-auctions/744?type=",
+   "https://www.mzadcom.om/grouped-auctions/745?type=",
+   "https://www.mzadcom.om/grouped-auctions/748?type=",
+   "https://www.mzadcom.om/grouped-auctions/751?type=",
+   "https://www.mzadcom.om/grouped-auctions/752?type=",
+   "https://www.mzadcom.om/grouped-auctions/759?type=",
+   "https://www.mzadcom.om/grouped-auctions/760?type=",
+   "https://www.mzadcom.om/grouped-auctions/763?type=auctions",
+   "https://www.mzadcom.om/grouped-auctions/765?type=auctions",
+   "https://www.mzadcom.om/login",
+   "https://www.mzadcom.om/map",
+   "https://www.mzadcom.om/privacy-policy",
+   "https://www.mzadcom.om/register",
+   "https://www.mzadcom.om/sellers",
+   "https://www.mzadcom.om/terms-and-conditions",
+   "https://www.mzadcom.om/terms-of-service",
+   "https://x.com/mzadcomom?s=11",
+   "mailto:info@mzadcom.om",
+   "tel:+96892788822",
+   "tel:+96892970111",
+   "tel:+96894370339"
+  ],
+  "json_items": 17
  },
  "rop": {
   "pages": [
@@ -59,10 +515,6 @@
     "items": 0
    },
    {
-    "url": "https://rop.mzadcom.om/services/public/api/banners",
-    "items": 0
-   },
-   {
     "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
     "items": 0
    },
@@ -71,15 +523,19 @@
     "items": 0
    },
    {
+    "url": "https://rop.mzadcom.om/services/public/api/active_organizations?",
+    "items": 0
+   },
+   {
+    "url": "https://rop.mzadcom.om/services/public/api/banners",
+    "items": 0
+   },
+   {
     "url": "https://rop.mzadcom.om/services/public/api/active_categories?limit=5",
     "items": 0
    },
    {
     "url": "https://rop.mzadcom.om/services/public/api/active_categories?active=1",
-    "items": 0
-   },
-   {
-    "url": "https://rop.mzadcom.om/services/public/api/active_organizations?",
     "items": 0
    },
    {
@@ -247,7 +703,7 @@
     "auction_liked": "False",
     "auction_wishlisted": "False",
     "calendar": "False",
-    "total_views": "17",
+    "total_views": "18",
     "latitude": "23.576438123927712",
     "longitude": "58.13485670550246",
     "contract_number": "539",
@@ -261,7 +717,7 @@
     "auctions_count": "1",
     "registartion_status": "open",
     "my_rank": "None",
-    "days_remaining": "4",
+    "days_remaining": "3",
     "winner": "{'service_charge': 2, 'vat_service_charge': 0, 'item_amount_vat': 0, 'total_amount': 0, 'invoice_sequence': ''}",
     "winner_file": "False",
     "location": "Seeb",
@@ -291,7 +747,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-24 08:47:19",
     "updated_at": "2026-11-24 08:47:19",
-    "server_time": "2026-11-28 06:45:00",
+    "server_time": "2026-11-28 15:59:35",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -302,7 +758,7 @@
     "loc_info": "{'id': 5, 'name': 'Seeb', 'name_ar': 'السيب', 'latitude': '23.6821956', 'longitude': '58.1843842', 'department': 1, 'created_at': '2024-12-16T17:28:08.000000Z', 'updated_at': '2024-12-16T17:28:08.000000Z'}",
     "department_id": "1",
     "dep_info": "{'id': 1, 'name': 'Muscat Governorate Police Headquarter', 'name_ar': 'قيادة شرطة محافظة مسقط', 'region': 'Muscat Governorate ', 'region_ar': 'محافظة مسقط', 'deleted': 0, 'created_at': '2024-12-16T11:43:15.000000Z', 'updated_at': '2024-12-16T16:40:55.000000Z'}",
-    "no_of_days": "5",
+    "no_of_days": "4",
     "sub_division_id": "16"
    },
    {
@@ -374,7 +830,7 @@
     "auction_liked": "False",
     "auction_wishlisted": "False",
     "calendar": "False",
-    "total_views": "9",
+    "total_views": "10",
     "latitude": "26.179452319446717",
     "longitude": "56.24635599842063",
     "contract_number": "526",
@@ -388,7 +844,7 @@
     "auctions_count": "1",
     "registartion_status": "open",
     "my_rank": "None",
-    "days_remaining": "3",
+    "days_remaining": "2",
     "winner": "{'service_charge': 2, 'vat_service_charge': 0, 'item_amount_vat': 0, 'total_amount': 0, 'invoice_sequence': ''}",
     "winner_file": "False",
     "location": "Khasab",
@@ -418,7 +874,7 @@
     "file_reauction_doc": "False",
     "created_at": "2026-11-24 08:46:38",
     "updated_at": "2026-11-24 08:46:38",
-    "server_time": "2026-11-28 06:45:00",
+    "server_time": "2026-11-28 15:59:35",
     "is_vat_included": "0",
     "is_service_charge_included": "0",
     "is_service_charge_vat_included": "0",
@@ -429,7 +885,7 @@
     "loc_info": "{'id': 17, 'name': 'Khasab', 'name_ar': 'خصب', 'latitude': '', 'longitude': '', 'department': 3, 'created_at': None, 'updated_at': None}",
     "department_id": "3",
     "dep_info": "{'id': 3, 'name': 'Musandam Governorate Police Headquarter', 'name_ar': 'قيادة شرطة محافظة مسندم', 'region': 'Musandam Governorate ', 'region_ar': 'محافظة مسندم', 'deleted': 0, 'created_at': '2024-12-16T12:02:16.000000Z', 'updated_at': '2024-12-16T16:42:32.000000Z'}",
-    "no_of_days": "4",
+    "no_of_days": "3",
     "sub_division_id": "1"
    }
   ],
@@ -529,11 +985,11 @@
    },
    {
     "href": "https://safqaauctions.om/lot/lot_EpNNmHwUdHDTfizR",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•••*\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n****\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
    },
    {
     "href": "https://safqaauctions.om/auctions/evt_Dr85qnz1HVKPwpA7",
-    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n•••*\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
+    "text": "تويوتا لاندكروزر برادو 2018 - لوحة 4667 ح ك\nالمركبات\nمزاد مركبات ميناء صحار\nقيمة العرض الفائز\n****\n280\n١٬٨١٢ مشاهدات\nعرض التفاصيل"
    }
   ],
   "json_full": [],
@@ -745,7 +1201,7 @@
     "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/0cf41a0b-0282-45e6-88ed-91c9bc5e6d91', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/fe48af4c-6f8e-4a29-8054-ff25ff20aa37'}, 'id': '3f396078-4507-403e-9e0e-0c20ced6baab'}",
     "item_status": "open",
     "min_bid": "100.0",
-    "modified_date": "Sat, 28 Nov 2026 06:43:42 GMT",
+    "modified_date": "Sat, 28 Nov 2026 15:39:31 GMT",
     "owner_title": "{'ar': 'مزاد البركة المركبات ', 'en': 'Al Baraka Vehicles Auction'}",
     "start_date": "Tue, 01 Dec 2026 20:00:00 GMT",
     "title": "{'ar': 'الرقم 1 : ميتسوبيشي إل 200 بيك أب', 'en': 'NO1: Mitsubishi L200 Pick-up'}",
@@ -760,7 +1216,7 @@
     "images": "{'file': {'file': 'https://storage.googleapis.com/mazad-beta/items/a39a7c5c-42e6-4898-885d-8c2b0abc158e', 'thumb': 'https://storage.googleapis.com/mazad-beta/items/d030096f-8a87-491f-b659-7a3529c7c9d0'}, 'id': '6297eada-215f-41e6-85ab-30afa3b2da71'}",
     "item_status": "open",
     "min_bid": "100.0",
-    "modified_date": "Sat, 28 Nov 2026 06:43:42 GMT",
+    "modified_date": "Sat, 28 Nov 2026 15:39:31 GMT",
     "owner_title": "{'ar': 'مزاد البركة المركبات ', 'en': 'Al Baraka Vehicles Auction'}",
     "start_date": "Tue, 01 Dec 2026 20:00:00 GMT",
     "title": "{'ar': 'الرقم 2 : ميتسوبيشي إل 200 بيك أب', 'en': 'NO2: Mitsubishi L200 Pick-up'}",
@@ -832,7 +1288,7 @@
     "items": 0
    },
    {
-    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/e79cebe3-1d61-4b24-a806-7b8cc6ceaca0/activity?widgetInfoTraceId=d2b8dfa0-9dca-48f9-9418-00a4f977d566",
+    "url": "https://wchat.freshchat.com/app/services/app/webchat/f19d4388-46d8-4d64-b1c9-17393bb5ea16/user/4b69ff6f-9465-48ce-94a6-88421b6663b5/activity?widgetInfoTraceId=41cef2d6-fea8-4667-a6cf-d3ba7d9373f7",
     "items": 0
    },
    {
@@ -1015,49 +1471,22 @@
   "pages": [
    {
     "url": "https://www.muscatauction.com/",
-    "cards": 7
+    "cards": 1
    }
   ],
   "apis": [],
   "raw_cards": [
    {
-    "href": "https://www.blogger.com/",
-    "text": "لم يتم العثور على المدونة الإلكترونية\n\nلم يتم العثور على المدونة التي كنت تبحث عنها. فإذا كنت مالكًا لهذه المدونة، فيرجى تسجيل الدخول.\n\n‏انتقال إلى Blogger\nتعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج\n© 1999 – 2026 Google\nبنود الخدمة الخصوصية سياسة المحتوى"
-   },
-   {
-    "href": "https://www.blogger.com/go/helpcenter",
-    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
-   },
-   {
-    "href": "https://www.blogger.com/go/discuss",
-    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
-   },
-   {
-    "href": "https://www.blogger.com/go/tutorials",
-    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
-   },
-   {
-    "href": "https://www.blogger.com/go/buzz",
-    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
-   },
-   {
-    "href": "https://www.blogger.com/go/devapi",
-    "text": "تعليمات\nمركز التعليمات\nمنتدى المساعدة\nدورات تعليمية بالفيديو\nالمنتدى\nBlogger Buzz\nالمطورون\nBlogger API\nمنتدى مطوري البرامج"
+    "href": "https://support.google.com/websearch/answer/86640",
+    "text": "تظهر هذه الصفحة عند اكتشاف Google تلقائيًا لطلبات واردة من شبكة الكمبيوتر الخاصة بك والتي يتضح أنها تنتهك بنود الخدمة. وينتهي الحظر بعد توقف هذه الطلبات مباشرة. في أثناء ذلك، يتيح لك حل اختبار CAPTCHA أعلاه متابعة استخدام خدماتنا.ربما تم إرسال حركة البيانات هذه من خلال برنامج ضار أو مكون إضافي أو نص برمجي يرسل طلبات تلقائية. إذا كنت تشارك اتصال الش"
    }
   ],
   "json_full": [],
   "items": 0,
   "anchors_sample": [
-   "https://www.blogger.com/",
-   "https://www.blogger.com/go/buzz",
-   "https://www.blogger.com/go/contentpolicy",
-   "https://www.blogger.com/go/devapi",
-   "https://www.blogger.com/go/devforum",
-   "https://www.blogger.com/go/discuss",
-   "https://www.blogger.com/go/helpcenter",
-   "https://www.blogger.com/go/privacy",
-   "https://www.blogger.com/go/terms",
-   "https://www.blogger.com/go/tutorials"
+   "https://support.google.com/websearch/answer/86640",
+   "https://www.google.com/policies/terms/",
+   "https://www.google.com/sorry/index?continue=https://www.muscatauction.com/&q=EgQUORdtGMyHq9gGIi3LwIAkK2WLJFba5d5MoSeTfSu_mYgqaekXqorqZhYfQ-Sh974RODCxWQUSvywyAnJSWgFDYJ-2ibPpxPqF3gE#"
   ],
   "json_items": 0
  }
